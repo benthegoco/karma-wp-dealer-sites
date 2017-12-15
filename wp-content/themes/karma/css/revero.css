@@ -1,0 +1,537 @@
+
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaBold.eot');
+    src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBold.woff') format('woff'),
+        url('../fonts/NexaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaHeavy.eot');
+    src: url('../fonts/NexaHeavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaHeavy.woff') format('woff'),
+        url('../fonts/NexaHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa XBold';
+    src: url('../fonts/NexaXBold.eot');
+    src: url('../fonts/NexaXBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaXBold.woff') format('woff'),
+        url('../fonts/NexaXBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/Nexa.eot');
+    src: url('../fonts/Nexa.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nexa.woff') format('woff'),
+        url('../fonts/Nexa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaLight.eot');
+    src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaLight.woff') format('woff'),
+        url('../fonts/NexaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa Book';
+    src: url('../fonts/NexaBook.eot');
+    src: url('../fonts/NexaBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBook.woff') format('woff'),
+        url('../fonts/NexaBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaThin.eot');
+    src: url('../fonts/NexaThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaThin.woff') format('woff'),
+        url('../fonts/NexaThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.home.page-template.page-template-page-home.page-template-page-home-php.page .pageCenter.siteHeader {
+    height: 92px;
+}
+
+body {
+    margin: 0px;
+}
+
+ul
+{
+    padding: 0;
+    list-style-type: none;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+img {
+    /* width: 100%; */
+    height: auto;
+    /* object-fit: contain; */
+}
+
+.slide-content-left {
+    position: absolute;
+    left: 8%;
+    top: 50px;
+}
+
+.slide-content-right {
+    position: absolute;
+    right: 8%;
+    top: 50px;
+}
+
+.slideStyle {
+    color: white;
+    max-width: 368px;
+    font-family: 'Nexa';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.slideStyle button {
+    font-family: "NexaLight";
+    font-size: 12px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    background-color: rgba(46,46,46,0.75);
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.slideStyle h1 {
+    font-family: 'Nexa';
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 9px;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+.slideStyle h5 {
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+#revero-wrapper {
+    max-width: 2000px;
+    min-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headerCopyStyle {
+    /* font-family: 'Nexa';
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    padding-bottom: 50px;
+    padding-top: 10px; */
+
+
+    font-family: 'Nexa';
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-size: 24px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+
+
+}
+
+.headerCopyStyle img {
+    width: 100%;
+}
+
+.meat {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mid-wrapper {
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodycopy {
+    font-family: 'Nexa';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    width: 80%;
+    line-height: 20px;
+    padding-bottom: 40px;
+    min-width: 480px;
+    letter-spacing: 0.5px;
+}
+
+.section-title {
+    font-family: 'Nexa';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#header-gallery {
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+#header-gallery img {
+    width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    /* object-fit: 50% 50%; */
+}
+
+#widgit-tab {
+    display: flex;
+    flex-direction: row;
+    max-width: 460px;
+    justify-content: space-between;
+}
+
+.revero-main {
+    display: flex;
+    flex-direction: row;
+}
+
+#side-img {
+    /* min-width: 330px; */
+    max-width: 450px;
+    width: 30%;
+}
+
+.tab-style {
+    width: 100%;
+    min-width: 100px;
+    font-family: 'Nexa';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    height: 40px;
+    border-right: 1px solid grey;
+    cursor: pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    letter-spacing: 3px;
+    background-color: white;
+    z-index: 10;
+    box-sizing: border-box;
+    
+    /* border-bottom: 1px solid grey; */
+}
+
+.tab-style:nth-child(1) {
+    border-top: #e82c33 solid 3px;
+    padding-left: 0px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    height: 41px;
+    /* background-color: pink; */
+}
+
+.tab-style:nth-child(2), .tab-style:nth-child(3) {
+    border-right: unset;
+}
+
+.widgit-line {
+    width: 460px;
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    position: relative;
+    top: 41px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.tab-content {
+    padding-top: 30px;
+    min-height: 250px;
+}
+
+.tab-content .addressStyle {
+    letter-spacing: 2px;
+}
+
+#tab-2-content, #tab-3-content {
+    display: none;
+}
+
+#contact-info {
+    display:flex;
+    flex-direction: row;
+}
+
+.weeklyTimeStyle {
+    padding-top: 0px;
+    padding-left: 70px;
+}
+
+.weeklyContactList {
+    width: 220px;
+    height: 20px;
+    font-family: 'Nexa';
+    font-weight: 300;
+    font-size: 14px;
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    letter-spacing: 2px;
+    text-transform: unset;
+    
+}
+
+.addressStyle {
+    font-family: 'Nexa';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.buttonStyle {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-family: 'Nexa';
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px 5px;
+    border: 1px solid grey;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.footer-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.revero-footer-img {
+    position: relative;
+    max-width: 2000px;
+    min-width: 320px;
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.revero-footer-img img {
+    width: 100%;
+    object-fit: cover !important;
+}
+
+.footer-section img {
+    /* width: 50%; */
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+    background-color: grey;
+}
+
+.getDirection {
+    display: none;
+}
+
+
+.tabBtnStyle {
+    display: flex;
+    flex-direction: row;
+}
+
+.home.page-template.page-template-page-home.page-template-page-home-php.page .locationHolder .pageCenter h2{
+    text-transform: uppercase;
+}
+
+
+
+@media all and (max-width: 767px) {
+
+
+    .slideStyle {
+        color: white;
+        max-width: unset;
+        font-family: 'Nexa';
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .slideStyle h5 {
+        font-size: 12px;
+    }
+
+    .slideStyle h1 {
+        font-size: 16px;
+    }
+
+
+
+    .home.page-template.page-template-page-home.page-template-page-home-php.page .pageCenter.siteHeader {
+        height: 145px;
+    }
+
+    .home.page-template.page-template-page-home .socialNetworkIcons {
+        display: none;
+
+    }
+    .tabBtnStyle {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .revero-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .revero-main #side-img {
+        width: 100%;
+        object-fit: cover;
+        max-width: unset;
+        padding-bottom: 40px;
+    }
+
+    .revero-main #side-img img {
+        object-fit: cover;
+        width: 100% !important;
+
+    }
+
+    .headerCopyStyle {
+        font-size: 18px;
+        padding-bottom: 20px;
+
+        
+    }
+
+    .revero-footer-img img {
+        width: unset;
+    }
+
+
+    .slide-content-left , .slide-content-right {
+        position: absolute;
+        top: unset;
+        bottom: 0px;
+        width: 100%;
+        left: -9999px;
+        right: -9999px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.47+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.70) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.70) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.70) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#78000000',GradientType=0 ); /* IE6-9 */
+
+
+    }
+
+    .slide-content-left h1, .slide-content-right h1 {
+        font-size: 14px;
+        letter-spacing: 4px;
+        line-height: 23px;
+    }
+
+    .slideStyle button {
+        width: 100%;
+    }
+
+    .mid-wrapper {
+        padding-left: unset;
+        padding-right: unset;
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .mid-wrapper .bodycopy {
+        min-width: 320px;
+        width: 100%;
+       
+    }
+
+    .weeklyTimeStyle {
+        padding-left: unset;
+        width: 100%;
+    }
+
+    .weeklyContactList {
+        width: 100%;
+    }
+
+    .tab-content {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .buttonStyle {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    
+ 
+}
+
+
