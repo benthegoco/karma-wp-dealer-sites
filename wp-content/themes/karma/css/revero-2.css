@@ -1,0 +1,1464 @@
+@font-face {
+	font-family: 'NexaLight';
+	src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaLight.otf') format('opentype'), url('../fonts/NexaLight.woff') format('woff'), url('../fonts/NexaLight.ttf') format('truetype'), url('../fonts/NexaLight.svg#NexaLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NexaBold';
+	src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaBold.otf') format('opentype'), url('../fonts/NexaBold.woff') format('woff'), url('../fonts/NexaBold.ttf') format('truetype'), url('../fonts/NexaBold.svg#NexaBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Nexa';
+	src: url('../fonts/Nexa.eot?#iefix') format('embedded-opentype'), url('../fonts/Nexa.woff') format('woff'), url('../fonts/Nexa.ttf') format('truetype'), url('../fonts/Nexa.svg#Nexa') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* html, body {
+	background: #2e2e2e;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-height: 100%;
+	overflow-x: hidden;
+} */
+/* body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+} */
+
+
+.page-template-default.page.page-id-844 .banner.mobBanner.swichBanner h2 {
+	display: block !important;
+	margin-left: unset;
+	margin-right: unset;
+}
+
+.page-template-default.page.page-id-844 #revero-2 .pageCenter h2 {
+	text-transform: unset;
+}
+
+
+.page-template-default.page.page-id-844 #revero-2 .pageCenter h2 {
+	display: block !important;
+}
+
+
+.page-template-default.page.page-id-844 #revero-2 .pageCenter H2 {
+	width: unset;
+}
+
+
+
+a, a:link, a:visited {
+	outline: none;
+	text-decoration: none;
+}
+img {
+	border: none;
+	margin: 0px;
+}
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+h3, h4, h5, h6 {
+	font-size: .9em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+form, input, select, textarea, p {
+	margin: 0px;
+	padding: 0;
+}
+textarea {
+	resize: none;
+}
+input:focus, textarea:focus {
+	outline: none;
+}
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time {
+	display: block;
+	margin: 0px;
+	padding: 0;
+}
+#revero-2 .customClear {
+	clear: both;
+	font-size: 0em;
+	line-height: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#revero-2 .overlay {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+#revero-2 .modal_wrapper {
+	width: 100%;
+	position: absolute;
+	padding-top: 50px;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+	display: none;
+}
+/*IE below 9*/
+
+#revero-2 #ieWrapper {
+	background: #000;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#revero-2 .ieHolder {
+	position: relative;
+	width: 555px;
+	padding: 20px;
+	margin: 200px auto 0 auto;
+	background: #FFF;
+	border: 7px solid #2b2927;
+}
+#revero-2 .btnIeUpdate {
+	background: url(../images/btnIeUpdate.jpg) 0 0 no-repeat;
+	width: 144px;
+	height: 37px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	color: #fff;
+	line-height: 37px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+#revero-2 .ieLogo {
+	float: left;
+	width: 134px;
+	height: 139px;
+	background: url(../images/ieLogo.jpg) no-repeat 0 0;
+}
+#revero-2 .ieContent {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+	color: #666;
+	font-size: 15px;
+	line-height: 18px;
+}
+#revero-2 .ieContent strong {
+	margin: 0 0 15px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px dashed #cccccc;
+	display: block;
+	font-size: 18px;
+	color: #333;
+	font-weight: normal;
+}
+/*End IE below 9*/
+
+#revero-2 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="submit"], textarea {
+	-webkit-appearance: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+}
+#revero-2 .pageCenter {
+	max-width: 1052px;
+	margin: 0px auto;
+}
+#revero-2 .pageHeader .address a, .addressMob li a, .addressHolder p a {
+	color: #000;
+}
+#revero-2 .pageLogo {
+	/*max-width: 521px;*/
+	width: 66%;
+	margin: 0 0 0 -22px;
+}
+#revero-2 .pageLogo a {
+	display: inline-block;
+	max-width: 284px;
+	width: 54%;
+}
+#revero-2 .pageLogo img {
+	max-width: 100%;
+}
+#revero-2 .pageLogo span {
+	border-left: 1px solid #787878;
+	color: #000;
+	display: inline-block;
+	width: 41%;
+	font-size: 18px;
+	letter-spacing: 8px;
+	margin-left: 20px;
+	margin-top: 0;
+	padding: 0px 0 0px 22px;
+	box-sizing: border-box;
+}
+#revero-2 .pageLogo img, .pageLogo span {
+	vertical-align: middle;
+}
+#revero-2 img {
+	max-width: 100%;
+	height: auto;
+}
+#revero-2 ul, #revero-2 ol {
+	padding: 0px;
+	margin: 0px;
+}
+#revero-2 .pageHeader {
+	background: #fff;
+	border-bottom: 16px solid #2e2e2e;
+}
+#revero-2 .pageHeader .pageCenter {
+	padding: 28px 0 24px 0;
+}
+#revero-2 .pageHeader .address {
+	font-size: 11px;
+	line-height: 20px;
+}
+#revero-2 .pageCenter h2 {
+	font-size: 23px;
+	letter-spacing: 9px;
+	line-height: 34px;
+	padding: 0 0 12px;
+}
+#revero-2 .pageCenter h2 span {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	text-transform: none;
+	padding-top: 22px;
+}
+#revero-2 .pageContent {
+	background: #fff;
+	min-height: 396px;
+}
+#revero-2 .locationHolder h2 {
+	padding: 0 0 20px 8px;
+}
+#revero-2 .btnClose {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	width: 34px;
+	height: 38px;
+}
+#revero-2 .btnClose img {
+	position: relative;
+	top: 12px;
+	left: 10px;
+	min-height: auto !important;
+}
+#revero-2 .btnClose:hover {
+	background-color: #000;
+}
+#revero-2 .btnClose a {
+	display: block;
+}
+#revero-2 #iw-container {
+	padding: 0;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+#revero-2 #iw-container:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	box-sizing: border-box;
+	border-width: 0px 18px 18px 0;
+	border-style: solid;
+	border-color: transparent transparent #fff #fff;
+	transform-origin: 0 0;
+	transform: rotate(-45deg);
+	-webkit-box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+	box-shadow : -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+#revero-2 #iw-container h2 {
+	font-family: 'Nexa';
+	color: #fff;
+	background: #ea3d31;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 14px;
+	padding: 12px 0 12px 12px;
+	margin: 0px;
+	border: none;
+	text-transform: uppercase;
+}
+#revero-2 #bodyContent {
+	font-family: 'Nexa';
+	padding: 10px 13px;
+	background: #ffffff;
+}
+#revero-2 #bodyContent b {
+	font-family: 'Nexa';
+	color: #000000;
+}
+#revero-2 #bodyContent p {
+	font-family: 'Nexa';
+	color: #525252;
+	line-height: 18px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+#revero-2 #bodyContent p.phone {
+	font-family: 'Nexa';
+	color: #000000;
+	font-size: 12px;
+	padding-top: 16px;
+	font-weight: normal;
+}
+#revero-2 #bodyContent p.phone a {
+	font-family: 'Nexa';
+	color: #60bfe7;
+	margin-left: 4px;
+}
+#revero-2 .bannerHolder p {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 2px;
+}
+#revero-2 .bannerHolder .contentHolder.type1 {
+	max-width: 394px !important;
+}
+#revero-2 .banner .type1 p {
+	color: #363636;
+	letter-spacing: 5px;
+	line-height: 24px;
+	padding-bottom: 24px;
+}
+#revero-2 .banner .type1 p:last-of-type {
+	padding-bottom: 0;
+}
+#revero-2 .bannerHolder, .btnMore, .getDirection a, .footer a {
+	color: #fff;
+}
+#revero-2 .bannerHolder .contentHolder {
+	max-width: 368px;
+	right: 20px;
+	top: 63px;
+}
+#revero-2 .bannerHolder .contentHolder.Left_ban {
+	right: auto;
+	left: 0px;
+	padding-left: 20px;
+}
+#revero-2 .bannerHolder .contentHolder.leftBtm {
+	top: 50px;
+	/*bottom: 35px;*/
+	bottom: 0;
+	left: 88px;
+	max-width: 330px;
+}
+#revero-2 .bannerHolder .contentHolder.leftBtm.Right_ban {
+	left: auto;
+	right: 88px;
+}
+#revero-2 .bannerHolder .contentHolder.leftTop {
+	top: 32%;
+	/*bottom: 35px;*/
+	bottom: unset;
+	left: 88px;
+	max-width: 330px;
+}
+#revero-2 .btnMore {
+	background: rgba(54, 54, 54, 0.75);
+	font-size: 12px;
+	height: 38px;
+	letter-spacing: 4px;
+	line-height: 41px;
+	min-width: 219px;
+	margin-top: 32px;
+	position: relative;
+	z-index: 1;
+}
+#revero-2 .btnMore:hover, .btnMore.v2:hover {
+	color: #fff;
+	background: #3c3c3c;
+}
+#revero-2 .type1 .btnMore {
+	margin-top: 12px;
+}
+#revero-2 .banner .type1 {
+	margin-top: 22px;
+}
+#revero-2 .btnMore.v2 {
+	color: #000;
+	background: #fff;
+	border: 1px solid #7f8180;
+	letter-spacing: 5px;
+}
+#revero-2 .commonContent .btnMore {
+	margin-top: 50px;
+}
+#revero-2 .flex-control-nav {
+	width: 100%;
+	left: 0px;
+	bottom: 65px;
+}
+#revero-2 .flex-control-nav li {
+	margin-right: 30px;
+}
+#revero-2 .flex-control-nav a {
+	background: #929292;
+	width: 5px;
+	height: 5px;
+}
+#revero-2 .flex-control-nav a.flex-active {
+	background: #fff;
+}
+#revero-2 .bannerHolder {
+	padding: 0 0 30px 0;
+}
+#revero-2 .commonContent {
+	padding: 14px 0 42px 0;
+}
+#revero-2 .commonContent h2 {
+	padding: 0 0 36px 0;
+}
+#revero-2 .commonContent .leftSide {
+	color: #000;
+	width: 70%;
+	max-width: 711px;
+	padding: 0 142px 0 0;
+}
+#revero-2 .specHolder .leftSide {
+	width: 48%;
+	max-width: 500px;
+	padding: 0 32px 0 0;
+	display: table;
+}
+#revero-2 .specHolder .leftSide .bgBanner {
+	display: table-cell;
+	vertical-align: middle;
+}
+#revero-2 .commonContent .rightSide {
+	width: 30%;
+}
+#revero-2 .specHolder .rightSide {
+	width: 52%;
+	max-width: 547px;
+}
+#revero-2 .commonContent p {
+	font-size: 14px;
+	line-height: 23px;
+	padding: 0 0 21px 0;
+}
+#revero-2 .getDirection {
+	background: #5e5e5e;
+}
+#revero-2 .getDirection {
+	padding: 12px 0;
+}
+#revero-2 .getDirection a {
+	font-size: 13px;
+	letter-spacing: 4px;
+}
+/*.map {
+ width: 100%;
+ }*/
+
+ #revero-2 #map {
+	width: 100%;
+	min-height: 337px;
+}
+#revero-2 #mapInfo h2 {
+	color: #ea3d31;
+	font-size: 14px;
+	letter-spacing: 2px;
+	line-height: 14px;
+	padding: 12px 0 0 12px;
+	margin: 0px;
+	border: none;
+	text-transform: uppercase;
+}
+#revero-2 #bodyContent {
+	padding: 10px 13px;
+}
+#revero-2 #bodyContent b {
+	color: #000000;
+}
+#revero-2 #bodyContent p {
+	color: #525252;
+	line-height: 18px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+#revero-2 #bodyContent p.phone {
+	color: #000000;
+	font-size: 12px;
+	padding-top: 16px;
+	height: 64px;
+}
+#revero-2 #bodyContent p.phone a {
+	color: #60bfe7;
+	margin-left: 4px;
+}
+#revero-2 .footer {
+	background: #2e2e2e;
+}
+#revero-2 .footerNav {
+	font-size: 12px;
+	padding: 0 0 17px 0;
+	border-bottom: 1px solid #fff;
+}
+#revero-2 .footerNav li {
+	padding: 0 22px 0 0;
+	letter-spacing: 2px;
+}
+#revero-2 .footerNav li a:hover {
+	color: #ddd;
+}
+#revero-2 .footer .pageCenter {
+	padding: 55px 24px 51px 24px;
+}
+#revero-2 .socialMedia {
+	padding: 7px 0 0 0;
+}
+#revero-2 .socialMedia li {
+	width: 31px;
+	height: 30px;
+	margin-left: 12px;
+	background-image: url('../images/bgSocialMedia.jpg');
+	background-repeat: no-repeat;
+}
+#revero-2 .socialMedia li a {
+	width: 100%;
+	height: 100%;
+}
+#revero-2 .socialMedia .btnFb {
+	background-position: 0 0;
+}
+#revero-2 .socialMedia .btnTwitter {
+	background-position: -43px 0;
+}
+#revero-2 .socialMedia .btnYoutube {
+	background-position: -86px 0;
+}
+#revero-2 .socialMedia .btnPinterest {
+	background-position: -128px 0;
+}
+#revero-2 .noPadding {
+	padding: 0px !important;
+}
+#revero-2 .contactHolder h2 {
+	padding: 0 0 10px 0;
+	margin: 0 0 38px 0;
+	border-bottom: 1px solid #777777;
+}
+#revero-2 .contactHolder h3 {
+	font-size: 19px;
+	letter-spacing: 4px;
+	padding-bottom: 34px;
+}
+#revero-2 .contactForm {
+	padding: 25px 3px 35px 3px;
+}
+#revero-2 .addressHolder h3 {
+	padding: 0 0 19px 0;
+}
+#revero-2 .addressHolder p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 0 17px 21px;
+}
+#revero-2 .inputHolder input {
+	background: none;
+	height: 49px;
+	padding: 0 15px;
+	border: none;
+	border-bottom: 1px solid #d5d5d5;
+	font-size: 14px;
+	width: 100%;
+	margin-bottom: 32px;
+}
+#revero-2 .inputHolder.select input {
+	background: url('../images/bgSelect.jpg') no-repeat right center;
+}
+#revero-2 .contactForm label {
+	font-size: 14px;
+	padding: 0 0 8px 15px;
+}
+#revero-2 .contactForm textarea {
+	width: 100%;
+	height: 109px;
+	padding: 15px;
+	overflow: auto;
+	margin-bottom: 27px;
+}
+#revero-2 .commonData {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 23px;
+	padding: 52px 0 32px;
+}
+#revero-2 .commonData h1 {
+	font-size: 27px;
+	letter-spacing: 9px;
+	line-height: 22px;
+	padding: 0 0 18px;
+}
+#revero-2 .commonData h2 {
+	font-size: 23px;
+	letter-spacing: 9px;
+	line-height: 20px;
+	padding: 0 0 12px;
+}
+#revero-2 .commonData h3 {
+	font-size: 20px;
+	letter-spacing: 7px;
+	line-height: 19px;
+	padding: 0 0 10px;
+}
+#revero-2 .commonData h4 {
+	font-size: 14px;
+	letter-spacing: 6px;
+	line-height: 14px;
+	padding: 0 0 6px;
+}
+#revero-2 .commonData p {
+	padding-bottom: 12px;
+}
+#revero-2 .commonData ul {
+	line-height: 12px;
+	padding: 14px 0 18px 34px;
+}
+#revero-2 .commonData li {
+	padding: 0 0 14px;
+	line-height: 20px;
+}
+#revero-2 .commonData a {
+	color: #598ac8;
+}
+#revero-2 .commonData a:hover {
+	border-bottom: 1px solid #598ac8;
+}
+#revero-2 .contactForm .select input, #revero-2 .contactForm textarea {
+	border: 1px solid #d5d5d5;
+}
+#revero-2 .btnMore, #revero-2 .getDirection a, #revero-2 .footer ul, #revero-2 .btnIeUpdate, #revero-2 .pageCenter h2, #revero-2 .contactHolder h3, #revero-2 .commonData h1, #revero-2 .commonData h2, .commonData h3, .commonData h4 {
+	text-transform: uppercase;
+}
+#revero-2 .commonContent .leftSide, .spec li span, .inputHolder input, .contactForm textarea, .addressHolder, .btnMore {
+	box-sizing: border-box;
+}
+#revero-2 .flex-control-nav a {
+	text-indent: -9999px;
+}
+#revero-2 .btnMore, #revero-2 .flex-control-nav, #revero-2 .commonContent h2, #revero-2 .getDirection {
+	text-align: center;
+}
+#revero-2 .hidden {
+	visibility: hidden;
+}
+#revero-2 .banner, #revero-2 .articleList figurem, #revero-2 .commonContent .rightSide figure, #revero-2 .map, .articleList figure {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#revero-2 .banner {
+	min-height: 397px;
+}
+#revero-2 .articleHolder {
+	padding: 63px 0 42px 0;
+}
+#revero-2 .articleHolder.ourArticle {
+	padding-top: 38px;
+}
+#revero-2 .articleList {
+	color: #000;
+	font-size: 14px;
+	width: 49%;
+	max-width: 516px;
+	margin-bottom: 30px;
+	vertical-align: top;
+}
+
+
+#revero-2 .innerTemplate .pageContent .commonContent .pageCenter .commonHeading.ourHeading {
+	text-transform: uppercase;
+}
+
+#revero-2 .innerTemplate .pageContent .commonContent .pageCenter .specHolder .commonHeading {
+	text-transform: uppercase;
+}
+
+
+#revero-2 .articleList h4 {
+	text-transform: uppercase;
+}
+#revero-2 .articleList h4 a {
+	color: #000;
+}
+#revero-2 .articleList:nth-child(2n+1) {
+	margin-right: 1.6%;
+}
+#revero-2 .articleList figure {
+	max-height: 245px;
+	margin-bottom: 24px;
+}
+#revero-2 .articleList h4 {
+	font-size: 14px;
+	letter-spacing: 8px;
+	padding: 0 0 3px 0;
+}
+#revero-2 .articleList p {
+	line-height: 23px;
+	letter-spacing: 1px;
+	padding: 0;
+}
+#revero-2 .commonContent .ourHeading {
+	padding: 16px 0 0 0;
+}
+#revero-2 .spec, #revero-2 .addressMob {
+	list-style: none;
+	width: 100%;
+}
+#revero-2 .spec li {
+	padding: 5px;
+	letter-spacing: 2px;
+}
+#revero-2 .spec li:nth-child(odd) {
+	background: #fafafa;
+}
+#revero-2 .spec li span {
+	color: #626262;
+	vertical-align: top;
+	letter-spacing: 1px;
+	padding: 13px;
+	width: 65%;
+}
+#revero-2 .spec li span:first-child {
+	/*width: 152px;*/
+	max-width: 152px;
+	width: 33%;
+}
+#revero-2 .contactHolder {
+	padding: 43px 0 0 0;
+}
+#revero-2 .inputHolder {
+	margin-left: 2%;
+}
+#revero-2 .holder2 .inputHolder {
+	width: 49%;
+}
+#revero-2 .holder3 .inputHolder {
+	width: 32%;
+}
+#revero-2 .contactForm .inputHolder:first-child {
+	margin-left: 0px;
+}
+#revero-2 .newsletter span {
+	font-size: 14px;
+	letter-spacing: 1px;
+	vertical-align: top;
+}
+#revero-2 .newsletter span:last-child {
+	margin-left: 11px;
+}
+#revero-2 .contactForm .btnMore {
+	margin: 0px;
+	cursor: pointer;
+}
+#revero-2 .addressHolder {
+	width: 50%;
+	padding: 0 12px 52px 0;
+}
+#revero-2 .addressMob li {
+	font-size: 20px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+#revero-2 .addressMob li.phone {
+	border-right: 1px solid #000;
+	letter-spacing: 4px;
+}
+#revero-2 .addressMob li a {
+	min-height: 20px;
+	padding: 3px 16px 3px 39px;
+	display: block;
+	z-index: 1;
+}
+#revero-2 .addressMob li a {
+	background-image: url('../images/commonMobIcons.png');
+	background-repeat: no-repeat;
+}
+#revero-2 .addressMob li.phone a {
+	background-position: 0 6px;
+	background-size: 25px auto;
+	line-height: 24px;
+}
+#revero-2 .addressMob li.location a {
+	background-position: 13px -77px;
+	background-size: 25px auto;
+}
+#revero-2 .inputHolder ul {
+	background: #f0f0f0;
+	box-sizing: border-box;
+	padding: 14px 14px 2px;
+	top: 73px;
+	width: 100%;
+	list-style: none;
+}
+#revero-2 .inputHolder li {
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+#revero-2 .bannerHolder .pageCenter, #revero-2 .bannerHolder, #revero-2 .inputHolder {
+	position: relative;
+}
+#revero-2 .bannerHolder .contentHolder, #revero-2 .flex-control-nav, .inputHolder ul {
+	position: absolute;
+}
+#revero-2 .pageHeader .address {
+	text-align: right;
+	width: 31%;
+	max-width: 330px;
+}
+#revero-2 .flex-direction-nav, #revero-2 .mobileView, .inputHolder ul, #revero-2 .contactForm .newsletter label {
+	display: none;
+}
+#revero-2 .commonData strong, #revero-2 #bodyContent b {
+	font-weight: normal;
+}
+#revero-2 .pageLogo, #revero-2 .btnMore, #revero-2 .flex-control-nav li, #revero-2 .flex-control-nav a, #revero-2 .footer li, #revero-2 .articleList, #revero-2 .spec li span, #revero-2 .addressMob li, #revero-2 .articleList figure a {
+	display: inline-block;
+}
+#revero-2 .flex-control-nav a, #revero-2 .locationHolder img, #revero-2 .socialMedia li a, #revero-2 .pageCenter h2 span, #revero-2 .contactForm label, #revero-2 #bodyContent b {
+	display: block;
+}
+#revero-2 .pageLogo, #revero-2 .commonContent .leftSide, #revero-2 .commonContent .rightSide, #revero-2 .inputHolder, #revero-2 .newsletter, #revero-2 .addressHolder {
+	float: left;
+}
+#revero-2 .newsletter {
+	width: 58%;
+}
+#revero-2 .pageHeader .address, #revero-2 .socialMedia, #revero-2 .specHolder .rightSide .btnMore, .contactForm .btnMore {
+	float: right;
+}
+#revero-2 .pageCenter, #revero-2 .inputHolder input, #revero-2 #mapInfo {
+	font-family: 'NexaLight';
+}
+#revero-2 .btnMore, #revero-2 #mapInfo b, #revero-2 #bodyContent p.phone, #revero-2 #mapInfo h2, #revero-2 .commonData strong, #revero-2 .pageLogo span {
+	font-family: 'NexaLight';
+}
+#revero-2 .pageHeader .address {
+	letter-spacing: 1px;
+}
+#revero-2 .bannerForMobile {
+	display: none;
+}
+/*Tab*/
+#revero-2 .tabWrapper ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 45px;
+	/*border-bottom:1px solid #858686;*/
+}
+#revero-2 .tabHeadingHolder {
+	position: relative;
+}
+#revero-2 .tabHeadingHolder ul:after {
+	position: absolute;
+	content: "";
+	border-bottom: 1px solid #858686;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+#revero-2 .tabWrapper li {
+	box-sizing: border-box;
+	color: #858585;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	/*font-family: 'NexaBold';*/
+	line-height: 16px;
+	font-weight: bold;
+	padding: 14px 20px 0px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	background: #FFF;
+	letter-spacing: 3px;
+}
+#revero-2 .tabWrapper li.selected {
+	color: #000;
+	border-right: 1px solid #858686;
+	border-left: 1px solid #858686;
+	background: #fff;
+	padding-bottom: 15px;
+	border-bottom: none;
+	height: 45px;
+	z-index: 1;
+}
+#revero-2 .tabWrapper li.selected:first-child {
+	border-left: 0;
+}
+#revero-2 .tabWrapper li.selected:nth-child(2) {
+}
+/*.tabWrapper li.selected:nth-child(3) {
+ border-right:0;
+ }*/
+ #revero-2 .btnContactus {
+	margin-top: 0 !important;
+}
+#revero-2 .tabWrapper li.selected::before {
+	background: #ec3538;
+	content: "";
+	height: 3px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+#revero-2 .tabContent {
+	padding: 25px 0 0;
+	display: none;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 2px;
+}
+#revero-2 .tabContent .leftSection {
+	float: left;
+	width: 50%;
+}
+#revero-2 .tabContent .middleSection {
+	float: left;
+	width: 25%;
+}
+#revero-2 .tabContent .rightSection {
+	float: left;
+	width: 25%;
+}
+@media screen and (max-width: 1240px) {
+	#revero-2 .pageCenter {
+		padding-left: 50px !important;
+		padding-right: 50px !important;
+	}
+	#revero-2 .pageLogo {
+		margin-left: 0px;
+		/*width: 51%;*/
+	}
+}
+@media screen and (max-width: 1076px) {
+
+	#revero-2 .commonContent .leftSide {
+		padding: 0 20px 0 0;
+	}
+	#revero-2 .articleList {
+		width: 47.97%;
+	}
+}
+@media screen and (max-width: 830px) {
+	#revero-2 .pageLogo span {
+		margin-left: 14px;
+		padding: 11px 0 6px 16px;
+		width: 35%;
+	}
+}
+@media screen and (max-width: 740px) {
+
+	#revero-2 .pageLogo img {
+		margin: 0 auto;
+	}
+	#revero-2 .pageLogo {
+		max-width: inherit;
+	}
+	/*.pageHeader .address {
+	 width: 100%;
+	 }*/
+	 #revero-2 .articleHolder {
+		padding: 16px 0 28px;
+	}
+	#revero-2 .articleList {
+		width: 47.90%;
+	}
+}
+@media screen and (max-width: 685px) {
+	#revero-2 .tabContent .leftSection {
+		width: 41%;
+	}
+	#revero-2 .tabContent .middleSection {
+		width: 29%;
+	}
+	#revero-2 .tabContent .rightSection {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 640px) {
+	#revero-2 .specHolder .leftSide {
+		height: auto !important;
+	}
+	#revero-2 .pageLogo {
+		max-width: 100%;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#revero-2 .pageLogo img {
+		height: auto;
+		max-width: 100%;
+		width: 75%;
+	}
+	#revero-2 .pageLogo span {
+		font-size: 16px;
+		border: none;
+		display: block;
+		margin: 0;
+		max-width: none;
+		padding: 5px 0 0;
+		width: 100%;
+	}
+	#revero-2 .pageHeader .address {
+		max-width: 100%;
+		width: 100%;
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		padding-bottom: 5px;
+		display: none;
+	}
+	#revero-2 .innerTemplate .mobileView .banner {
+		background-position: center;
+	}
+	#revero-2 .bannerHolder .contentHolder, .bannerHolder .contentHolder.leftBtm, .bannerHolder .contentHolder.leftTop {
+		max-width: 92%;
+		bottom: inherit;
+		left: 0;
+		right: 0;
+		top: 16px;
+	}
+	#revero-2 .bannerHolder .mobBanner .contentHolder {
+		bottom: 40px;
+		top: inherit;
+	}
+	#revero-2 .pageCenter {
+		max-width: 80%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	#revero-2 .bannerHolder .pageCenter {
+		max-width: inherit;
+		min-height: 372px;
+		padding: 0px !important;
+	}
+	#revero-2 .pageCenter h2 {
+		font-size: 18px;
+		letter-spacing: 4px;
+		line-height: 27px;
+		padding: 0 0 8px;
+	}
+	#revero-2 .commonContent h2 {
+		padding: 0 0 34px;
+	}
+	#revero-2 .bannerHolder {
+		padding: 0 0 18px;
+	}
+	#revero-2 .bannerHolder .contentHolder {
+		max-width: 100%;
+		padding: 0 10%;
+	}
+	#revero-2 .btnMore {
+		background: rgba(54, 54, 54, 0.94);
+		margin-top: 14px;
+		min-width: 100%;
+		height: 40px;
+		line-height: 43px;
+		font-size: 14px;
+		padding: 0 12px;
+	}
+	#revero-2 .flex-control-nav {
+		bottom: 25px;
+	}
+	#revero-2 .banner.mobBanner {
+		background-color: #000;
+		background-size: 123% auto;
+		background-position: center top;
+	}
+	#revero-2 .commonContent .leftSide {
+		padding: 0;
+	}
+	#revero-2 .commonContent .rightSide figure {
+		margin: 0 0 22px 0;
+	}
+	#revero-2 .commonContent .leftSide h2 {
+		padding: 0 0 15px;
+		text-align: left;
+	}
+	#revero-2 .btnMore.v2 {
+		background: #363636;
+		color: #fff;
+	}
+	#revero-2 .commonContent .btnMore {
+		margin-top: 4px;
+	}
+	#revero-2 .map img {
+		min-height: 260px;
+	}
+	#revero-2 .footer .pageCenter {
+		padding: 44px 12px 58px;
+	}
+	#revero-2 .footerNav li {
+		box-sizing: border-box;
+		letter-spacing: 2px;
+		padding: 0 22px 18px 0;
+		width: 48%;
+	}
+	#revero-2 .footerNav {
+		border-bottom: none;
+		font-size: 12px;
+		padding: 0 0 8px;
+	}
+	#revero-2 .socialMedia {
+		float: none;
+		padding: 7px 0 0;
+	}
+	#revero-2 .banner .type1 p {
+		letter-spacing: 2px;
+		line-height: 20px;
+		padding-bottom: 10px;
+	}
+	/*.bannerHolder .contentHolder {
+	 margin: 0px auto;
+	 }*/
+	 #revero-2 .flex-control-nav, #revero-2 .mobBanner .contentHolder h2, #revero-2 .mobBanner .contentHolder p {
+		position: relative;
+	}
+	#revero-2 .commonContent .leftSide, #revero-2 .commonContent .rightSide, .inputHolder {
+		width: auto;
+	}
+	#revero-2 .banner, #revero-2 .commonContent .leftSide, .commonContent .rightSide, .inputHolder {
+		min-height: inherit;
+	}
+	#revero-2 .pageLogo, .pageHeader .address, .holder3 .inputHolder, .holder2 .inputHolder {
+		width: auto;
+	}
+	#revero-2 .pageHeader, figure, .footer {
+		text-align: center;
+	}
+	#revero-2 .pageLogo, #revero-2 .pageHeader .address, .commonContent .leftSide, .commonContent .rightSide, .inputHolder, .inputHolder, .addressHolder {
+		float: none;
+	}
+	#revero-2 .desktopView {
+		display: none;
+	}
+	#revero-2 .mobileView {
+		display: block;
+	}
+	#revero-2 .mobBanner .contentHolder h2, .mobBanner .contentHolder p {
+		z-index: 1;
+	}
+	#revero-2 .mobBanner .contentHolder::after {
+		content: "";
+		height: 200%;
+		left: 0;
+		position: absolute;
+		top: -33%;
+		width: 100%;
+		background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 21%, rgba(0, 0, 0, 1) 33%);
+		background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 21%, rgba(0, 0, 0, 1) 33%);
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 21%, rgba(0, 0, 0, 1) 33%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+	}
+	#revero-2 .articleHolder {
+		padding: 16px 0 30px;
+	}
+	#revero-2 .articleList {
+		width: 100%;
+		margin-right: 0 !important;
+	}
+	#revero-2 .articleList h4 {
+		font-size: 18px;
+		letter-spacing: 8px;
+		padding: 0 0 17px;
+	}
+	#revero-2 .articleList figure {
+		margin-bottom: 24px;
+		max-height: inherit;
+		min-height: 228px;
+	}
+	#revero-2 .mobBanner .contentHolder::after {
+		top: -35%;
+	}
+	#revero-2 .bannerHolder .mobBanner .contentHolder {
+		min-height: 120px;
+		left: 0 !important;
+		right: 0 !important;
+		font-size: 16px;
+		line-height : 23px;
+		letter-spacing: 6px;
+	}
+	#revero-2 .homeSlider.bannerHolder .mobBanner .contentHolder {
+		min-height: 160px;
+	}
+	#revero-2 .mobBanner .contentHolder h2 {
+		font-size: 16px;
+		line-height: 23px;
+		letter-spacing: 6px;
+	}
+	#revero-2 .bannerHolder p {
+		font-size: 12px;
+		letter-spacing: 1px;
+		line-height: 22px;
+	}
+	#revero-2 .articleList:last-child {
+		margin: 0;
+	}
+	#revero-2 .contactForm .inputHolder {
+		margin-left: 0;
+	}
+	#revero-2 .inputHolder input {
+		font-size: 14px;
+		height: 44px;
+		margin-bottom: 12px;
+		padding: 0 15px 0 0;
+		border-color: #000;
+		width: 100%;
+	}
+	#revero-2 .inputHolder.select input {
+		padding: 0 15px;
+	}
+	#revero-2 .contactForm .inputHolder:first-child {
+		z-index: 1;
+	}
+	#revero-2 .contactForm {
+		padding: 0;
+	}
+	#revero-2 .contactHolder h2 {
+		font-size: 17px;
+		padding: 0 0 8px;
+		margin: 0 0 22px;
+		padding: 0 0 10px;
+	}
+	#revero-2 .contactForm label {
+		padding: 10px 0 8px;
+	}
+	#revero-2 .newsletter {
+		width: auto;
+	}
+	#revero-2 .newsletter span {
+		display: inline-block;
+		width: auto;
+	}
+	#revero-2 .addressHolder {
+		padding: 0 0 12px;
+		width: 100%;
+	}
+	#revero-2 .addressHolder p {
+		padding: 0 0 17px;
+	}
+	#revero-2 .btnMore.v2 {
+		margin: 23px 0 46px;
+	}
+	#revero-2 .articleHolder .articleList {
+		height: auto !important;
+	}
+	#revero-2 .addressMob li.location a {
+		padding-left: 16px;
+	}
+	#revero-2 .tabContent .leftSection {
+		float: none;
+		width: 100%;
+	}
+	#revero-2 .tabWrapper li.selected {
+		height: 45px;
+	}
+	#revero-2 .tabContent .middleSection {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 500px) {
+	#revero-2 .bannerHolder .mobBanner .contentHolder, .homeSlider.bannerHolder .mobBanner .contentHolder {
+		min-height: auto;
+	}
+	#revero-2 .tabContent .middleSection {
+		width: 40%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#revero-2 .addressMob li.location a {
+		padding-right: 0px;
+		padding-left: 25px;
+	}
+	#revero-2 .pageHeader {
+		border-bottom: 8px solid #2e2e2e;
+	}
+	#revero-2 .pageCenter {
+		max-width: 90%;
+	}
+	#revero-2 .bannerHolder .contentHolder {
+		padding: 0 5%;
+	}
+	#revero-2 .mobBanner .contentHolder::after {
+		top: -48%;
+	}
+	#revero-2 .addressMob li {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	#revero-2 .pageHeader .address {
+		font-size: 13px;
+	}
+	/*.addressMob li a {
+	 color: #000;
+	 padding: 0 13px 0 28px;
+	 }*/
+	 #revero-2 .addressMob li a {
+		color: #000;
+		padding: 3px 10px 3px 28px;
+	}
+	#revero-2 .addressMob li.phone a {
+		background-position: 0 5px;
+		background-size: 18px auto;
+	}
+	#revero-2 .addressMob li.location a {
+		background-position: 11px -50px;
+		background-size: 18px auto;
+	}
+	#revero-2 .bannerHolder .contentHolder {
+		color: #fff;
+	}
+	#revero-2 .flex-control-nav li {
+		margin-right: 16px;
+	}
+	/*.bannerHolder p {
+	 font-size: 13px;
+	 line-height: 20px;
+	 }*/
+}
+@media screen and (max-width: 440px) {
+
+	#revero-2 .mobBanner .contentHolder::after {
+		top: -50%;
+	}
+	#revero-2 .tabWrapper li {
+		padding: 12px 10px;
+	}
+	#revero-2 .tabContent .middleSection, #revero-2 .tabContent .rightSection {
+		width: 33%;
+	}
+	#revero-2 .tabWrapper li.selected {
+		padding-bottom: 18px;
+	}
+	#revero-2 .tabContent .middleSection, .tabContent .rightSection {
+		width: 45%;
+	}
+}
+
+#revero-2 .articleList figure {
+	min-height: 250px;
+}
+
+.page-template-default.page.page-id-844 h2, .page-template-default.page.page-id-844 hr{
+	display: none;
+}
+
+.contentHolder.leftTop {
+	padding-top: 50px;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+	/* #revero-2 .bannerHolder .contentHolder {
+		max-width: 368px;
+		right: 20px;
+		top: 63px;
+	} */
+
+	/* #revero-2 .bannerHolder .contentHolder.leftTop */
+	body, #revero-2 .bannerHolder * {
+		-webkit-text-size-adjust: 100%;
+	}
+	#revero-2 .bannerHolder .contentHolder.leftTop {
+		top: unset;
+		bottom: unset;
+		max-width: unset;
+		left: 0px;
+	}
+
+	#revero-2 .bannerHolder .contentHolder.leftBtm {
+		top: 200px;
+		/*bottom: 35px;*/
+		bottom: 0;
+		left: 88px;
+		max-width: unset;
+	}
+
+	banner mobBanner swichBanner
+
+	#revero-2 banner mobBanner swichBanner .contentHolder.leftTop {
+		/* top: 3%; */
+		left: 0px;
+	}
+
+	#revero-2 .bannerHolder .contentHolder.leftBtm.Right_ban {
+		text-transform: unset;
+		max-width: 90%;
+	}
+
+	#revero-2 .bannerHolder p {
+		font-size: 12px;
+		text-transform: unset;
+	}
+
+	#revero-2 .contentHolder .leftBtm.Right_ban{
+		display: block;
+	}
+}
+
+
+@media all and (min-width: 640px) and (max-width: 767px) {
+	#revero-2 .banner.mobBanner.swichBanner {
+		box-sizing: border-box;
+		padding: 0px 30px;
+	}
+}
+	
+
+
+

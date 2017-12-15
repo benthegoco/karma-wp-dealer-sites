@@ -1,0 +1,25 @@
+/*
+	Theme Name: Karma
+	Author: Tanvir Haider
+	Version: 1.0
+ */
+
+
+ .header-address {
+	font-size: 25px;
+	visibility: hidden;
+}
+
+
+
+.pageCenter h1 {
+	text-transform: uppercase;
+	font-size: 42px;
+}
+
+.karma_navigation {
+	-webkit-font-smoothing: antialiased;
+}
+span.time-of-week {
+	white-space: nowrap;
+}
