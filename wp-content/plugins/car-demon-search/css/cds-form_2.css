@@ -1,0 +1,116 @@
+/* CSS Document */
+.cdsf_two .car_demon_cds {
+    width: 100%;
+    float: left;
+	margin-bottom: 20px;
+}
+.cdsf_two .cdsf_tb_forms {
+	/*width: 80%;*/
+	/*max-width: 240px;*/
+	margin-left: auto;
+	margin-right: auto;	
+}
+.cdsf_two .cdsf_item {
+	background-color: #ccc; /*#2a6ea4;*/
+	/*color: #fff;*/
+	padding: 2%;
+	margin: 2px;
+	margin-bottom: 10px;
+	float: left;
+	min-width: 188px;
+	max-width: 250px;
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.cdsf_two input[type=text] {
+	width: 96%;
+/*	display: none; */
+}
+
+.cdsf_two .selectOption {
+	margin: 4px;
+	float: left;
+}
+
+.cdsf_two .apply_hide {
+	display: none;
+}
+
+.cdsf_two .cdsf_apply {
+	display: none;
+}
+
+.cdsf_two .cdsf_apply_cancel {
+	display: none;
+}
+
+.cdsf_two .selectArrow {
+	display: none;
+}
+
+.cdsf_two .cd_hide {
+	display: none;
+}
+
+.cdsf_two #label_year_range {
+	clear: both;
+}
+
+.cdsf_two .reset_cdsf_filters {
+	float: left;
+}
+
+.cdsf_two .selected {
+	display: none;
+}
+
+.cdsf_two #search_year, .cdsf_two #search_dropdown_Min_years, #cdsf_tb_forms #search_dropdown_Max_years, .cdsf_two #search_dropdown_Min_price, .cdsf_two #search_dropdown_Max_price, .cdsf_two #search_dropdown_miles_Min, .cdsf_two #search_dropdown_miles_Max {
+	display: none;
+}
+
+.cdsf_two.cd_closed #search-year, .cdsf_two.cd_closed #search-condition, .cdsf_two.cd_closed #search-model, .cdsf_two.cd_closed #search-make, .cdsf_two.cd_closed #search-location, .cdsf_two.cd_closed #search-body-style {
+	display: none;
+}
+
+.cdsf_two #search_location, .cdsf_two #search_condition, .cdsf_two #search_model, .cdsf_two #search_make, .cdsf_two #search_dropdown_body,  .cdsf_two #search_trim_level, .cdsf_two #search_transmission {
+	display: none;
+}
+.cdsf_two #label_year, .cdsf_two #label_condition, .cdsf_two #label_make, .cdsf_two #label_model, .cdsf_two #label_body_style, .cdsf_two #label_location {
+	cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cdsf_two #label_year_range, .cdsf_two #label_price_range, .cdsf_two #label_miles_range {
+    font-size: 16px;
+    font-weight: bold;
+	margin-left: 3px;
+}
+
+.cdsf_two #cdsf_button_apply {
+	width: 140px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+.cdsf_two .selectOptions {
+    background-color: #eee;
+    float: left;
+    width: 98%;
+    margin: 1%;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
+    color: #777;	
+}
+.cdsf_two .selectOption:hover {
+	color: #3053F8;
+}

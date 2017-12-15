@@ -1,0 +1,15 @@
+/* CSS Document */
+#social_row {
+	display: none;
+}
+.single-car-vehicle-summary-title, .single-car-enlarge {
+	display: none !important;
+}
+.single-car-price-box, .single-car-option-box, table {
+	width: 100% !important;
+	display: block;
+}
+div {
+	width: 100%;
+	float: left;
+}

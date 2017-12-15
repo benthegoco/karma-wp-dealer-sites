@@ -1,0 +1,103 @@
+{#
+    Various macros for easier rendering of input forms.
+
+    Usage:
+        {% import "@toolset/forms.twig" as forms %}
+        {{
+            forms.twoColumnRow(
+                forms.label(__( 'Name plural', 'wpcf' ), true),
+                forms.textInput('value: displayName')
+            )
+        }}
+
+    @since m2m
+#}
+
+
+{% macro textInput(dataBinding, class, value, label, isRequired, name, id, placeholder) %}
+
+    {% if label is not empty %}
+        {{ _self.label(label, isRequired, name, _self.textInput(name, id, value, class, placeholder, '', isRequired)) }}
+    {% else %}
+        <input type="text"
+               id="{{ id }}"
+               name="{{ name }}"
+               class="{{ class|default('large-text') }}"
+               placeholder="{{ placeholder }}"
+               data-bind="{{ dataBinding }}"
+        />
+    {% endif %}
+{% endmacro %}
+
+
+{% macro radio( dataBinding, value, label, name, class )%}
+    <label>
+        <input type="radio"
+               name="{{ name }}"
+               class="{{ class }}"
+               value="{{ value }}"
+               data-bind="{{ dataBinding }}"
+        />
+
+        {{ label }}
+    </label>
+{% endmacro %}
+
+
+{% macro checkbox(dataBinding, value, label, name, class) %}
+    <label>
+        <input type="checkbox"
+               name="{{ name }}"
+               class="{{ class }}"
+               value="{{ value }}"
+               data-bind="{{ dataBinding }}"
+        />
+
+        {{ label }}
+    </label>
+{% endmacro %}
+
+
+{% macro label(labelCaption, isRequired, for, content) %}
+    <label for="{{ for }}">
+        {{ labelCaption }}
+
+        {% if isRequired %}
+            (<strong>{{ __( 'required', 'wpcf' ) }}</strong>)
+        {% endif %}
+
+        {{ content|raw }}
+    </label>
+{% endmacro %}
+
+
+{% macro twoColumnRow(labelColumn, fieldColumn) %}
+    <tr>
+        <td>
+            {{ labelColumn }}
+        </td>
+        <td>
+            {{ fieldColumn }}
+        </td>
+    </tr>
+{% endmacro %}
+
+
+{% macro button(dataBinding, label, type = 'secondary', isLarge = false) %}
+    {% set typeToClass = {
+        secondary: 'button-seconday',
+        primary: 'button-primary',
+        red: 'button-primary toolset-red-button'
+    } %}
+
+    {% set largeClass = ( isLarge ? 'button-large' : '' ) %}
+
+    <button class="button {{ typeToClass[type] }} {{ largeClass }}"
+            data-bind="{{ dataBinding }}"
+    >{{ label }}</button>
+{% endmacro %}
+
+
+{% macro spinner(visibilityCondition) %}
+    <span class="spinner" data-bind="style: { visibility: ({{ visibilityCondition }} ? 'visible' : 'hidden') }"></span>
+{% endmacro %}

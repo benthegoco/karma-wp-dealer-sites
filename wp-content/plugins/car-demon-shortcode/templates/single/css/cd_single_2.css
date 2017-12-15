@@ -1,0 +1,689 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald|Open+Sans);
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.car-style-2 #main, .car-style-2 .container, .car-style-2 #page, .car-style-2 #content, .car-style-2 #content, .car-style-2 article, .car-style-2 .cd_single_car_2, .car-style-2 .entry-content {
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px !important;
+}
+
+.single-cars_for_sale.car-style-2 #demon-container {
+	width: 100%;
+	max-width: 100%;
+}
+
+.single-cars_for_sale.car-style-2 #demon-content {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.single-cars_for_sale.car-style-2 nav {
+	/*display: none;*/
+}
+
+.single-cars_for_sale.car-style-2 .entry-title {
+	display: none;
+}
+
+.cd_single_car_2 .cd_clear {
+	clear: both;
+}
+
+.cd_single_car_2 {
+	width: 100%;
+	position: relative;
+	float: left;
+	font-family: Oswald, "Open Sans";
+}
+
+.cd_single_car_2 .header {
+	position: relative;
+}
+
+.cd_single_car_2 .title_bar {
+    width: 100%;
+    float: left;
+    position: absolute;
+    color: #FFFFFF;
+    padding: 1%;
+    z-index: 100;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cd_single_car_2 .title {
+    float: left;
+    margin-left: 20%;
+    font-size: 24px;
+}
+
+.cd_single_car_2 .divide {
+	float: left;
+	margin-left: 14px;
+	margin-right: 14px;
+	font-size: 24px;
+}
+
+.cd_single_car_2 .mileage {
+    float: left;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.cd_single_car_2 .social {
+	float: right;
+	margin-right: 15%;
+	font-size: 24px;
+	width: 125px;
+	height: 25px;
+}
+
+.cd_single_car_2 .social .fb {
+	float: left;
+    background: url('../../../images/single/2_social.png');
+    width: 25px;
+    height: 25px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.cd_single_car_2 .social .twitter {
+	float: left;
+    background: url('../../../images/single/2_social.png');
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position-x: -30px;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.cd_single_car_2 .social .gplus {
+	float: left;
+    background: url('../../../images/single/2_social.png');
+    width: 25px;
+    height: 25px;
+	background-repeat: no-repeat;
+    background-position-x: -90px;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.cd_single_car_2 .social .linkedin {
+	float: left;
+    background: url('../../../images/single/2_social.png');
+    width: 25px;
+    height: 25px;
+	background-repeat: no-repeat;
+    background-position-x: -60px;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.cd_single_car_2 .photo_icon {
+    background: url('../../../images/single/gallery.png');
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 24px;
+}
+
+.cd_single_car_2 .main_photo_box {
+	width: 100%;
+	max-height: 650px;
+	overflow: hidden;
+	height: auto;
+	float: none;
+}
+
+.cd_single_car_2 .main_photo {
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+.cd_single_car_2 .photo_box {
+	position: relative;
+}
+
+.cd_single_car_2 .photo_bar {
+	background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    float: left;
+    position: absolute;
+    color: #FFFFFF;
+    padding: 1%;
+    z-index: 100;
+	bottom: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cd_single_car_2 .photo_icon {
+    float: left;
+    margin-left: 20%;
+    font-size: 24px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.cd_single_car_2 .photo_action {
+    float: left;
+    font-size: 14px;
+    margin-top: 6px;
+	cursor: pointer;
+}
+
+.cd_single_car_2 .price {
+    float: right;
+    font-size: 24px;
+	margin-right: 20%;
+}
+
+.cd_single_car_2 .cd_content {
+	width: 100%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cd_single_car_2 .cd_content_left.cd_fullwidth {
+	width: 100%;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cd_single_car_2 .cd_content_right.cd_fullwidth {
+	width: 0px;
+}
+
+.cd_single_car_2 .cd_content_left {
+	float: left;
+	width: 70%;
+	max-width: 800px;
+}
+
+.cd_single_car_2 .cd_single_sidebar_top {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cd_single_car_2 .cd_content_right {
+	float: left;
+	width: 30%;
+	max-width: 300px;
+}
+
+.cd_single_car_2 .cd_single_item_title_box {
+    padding: 1%;
+    font-size: 18px;
+    float: left;
+    width: 100%;
+	color: #FFFFFF;
+	cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+	margin-top: 10px;
+}
+
+.cd_single_car_2 .cd_single_item_title {
+	float: left;
+	margin-left: 2%;
+}
+
+.cd_single_car_2 .cd_single_item_title_arrow {
+	float: right;
+	margin-right: 2%;
+}
+
+.cd_single_car_2 .cd_single_item_content {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    float: left;
+    width: 100%;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+	background: #FFFFFF;
+}
+
+.cd_single_car_2 .cd_single_item_title_arrow {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #FFFFFF;
+	border-top: none;
+	margin-top: 12px;
+}
+
+.cd_single_car_2 .cd_single_item_title_arrow.cd_arrow_down {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #FFFFFF;
+	border-bottom: none;
+	margin-top: 12px;
+}
+
+.cd_single_car_2 .cd_single_item_title_arrow_down {
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #FFFFFF;
+	margin-top: 12px;
+}
+
+.cd_single_car_2 .cd_single_item_title_icon_email {
+    background: url('../../../images/single/2_email.png');
+    width: 21px;
+    height: 21px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-left: 2%;
+}
+
+.cd_single_car_2 .cd_single_item_title_icon_description {
+    background: url('../../../images/single/2_car.png');
+    width: 21px;
+    height: 21px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-left: 2%;
+}
+
+.cd_single_car_2  .cd_single_item_title_icon_special {
+    background: url('../../../images/single/2_question.png');
+    width: 21px;
+    height: 21px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-left: 2%;
+}
+
+.cd_single_car_2 .cd_single_item_title_icon_questions {
+    background: url('../../../images/single/2_question.png');
+    width: 21px;
+    height: 21px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-left: 2%;
+}
+
+.cd_single_car_2 .cd_single_item_title_icon_performance {
+    background: url('../../../images/single/2_tool.png');
+    width: 21px;
+    height: 21px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-left: 2%;
+
+}
+
+.cd_single_car_2 .cd_single_item_title_icon_features {
+    background: url('../../../images/single/2_gear.png');
+    width: 21px;
+    height: 21px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-left: 2%;
+
+}
+
+.cd_single_car_2 .cd_icon  {
+    width: 65px;
+    height: 65px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: left;
+	margin-left: 2%;
+	position: relative;
+}
+
+.cd_single_car_2 .cd_car {
+    background: url('../../../images/single/icon_car.png');
+}
+
+.cd_single_car_2 .cd_car:hover {
+    background: url('../../../images/single/icon_car_b.png');
+}
+
+.cd_single_car_2 .cd_chevron {
+    background: url('../../../images/single/icon_chevron.png');
+}
+
+.cd_single_car_2 .cd_chevron:hover {
+    background: url('../../../images/single/icon_chevron_b.png');
+}
+
+.cd_single_car_2 .cd_headlights {
+    background: url('../../../images/single/icon_headlights.png');
+}
+
+.cd_single_car_2 .cd_headlights:hover {
+    background: url('../../../images/single/icon_headlights_b.png');
+}
+
+.cd_single_car_2 .cd_heated_seats {
+    background: url('../../../images/single/icon_heated_seats.png');
+}
+
+.cd_single_car_2 .cd_heated_seats:hover {
+    background: url('../../../images/single/icon_heated_seats_b.png');
+}
+
+.cd_single_car_2 .cd_leather_seats {
+    background: url('../../../images/single/icon_leather_seats.png');
+}
+
+.cd_single_car_2 .cd_leather_seats:hover {
+    background: url('../../../images/single/icon_leather_seats_b.png');
+}
+
+.cd_single_car_2 .cd_moving_car {
+    background: url('../../../images/single/icon_moving_car.png');
+}
+
+.cd_single_car_2 .cd_moving_car:hover {
+    background: url('../../../images/single/icon_moving_car_b.png');
+}
+
+.cd_single_car_2 .cd_power_steering {
+    background: url('../../../images/single/icon_power_steering.png');
+}
+
+.cd_single_car_2 .cd_power_steering:hover {
+    background: url('../../../images/single/icon_power_steering_b.png');
+}
+
+.cd_single_car_2 .cd_rear_camera {
+    background: url('../../../images/single/icon_rear_camera.png');
+}
+
+.cd_single_car_2 .cd_rear_camera:hover {
+    background: url('../../../images/single/icon_rear_camera_b.png');
+}
+
+.cd_single_car_2 .cd_remote_key {
+    background: url('../../../images/single/icon_remote_key.png');
+}
+
+.cd_single_car_2 .cd_remote_key:hover {
+    background: url('../../../images/single/icon_remote_key_b.png');
+}
+
+.cd_single_car_2 .cd_remote_start {
+    background: url('../../../images/single/icon_remote_start.png');
+}
+
+.cd_single_car_2 .cd_remote_start:hover {
+    background: url('../../../images/single/icon_remote_start_b.png');
+}
+
+.cd_single_car_2 .cd_run_flat {
+    background: url('../../../images/single/icon_run_flat.png');
+}
+
+.cd_single_car_2 .cd_run_flat:hover {
+    background: url('../../../images/single/icon_run_flat_b.png');
+}
+
+.cd_single_car_2 .cd_speedometer {
+    background: url('../../../images/single/icon_speedometer.png');
+}
+
+.cd_single_car_2 .cd_speedometer:hover {
+    background: url('../../../images/single/icon_speedometer_b.png');
+}
+
+.cd_single_car_2 .cd_steering_wheel {
+    background: url('../../../images/single/icon_steering_wheel.png');
+}
+
+.cd_single_car_2 .cd_steering_wheel:hover {
+    background: url('../../../images/single/icon_steering_wheel_b.png');
+}
+
+.cd_single_car_2 .cd_usb {
+    background: url('../../../images/single/icon_usb.png');
+}
+
+.cd_single_car_2 .cd_usb:hover {
+    background: url('../../../images/single/icon_usb_b.png');
+}
+
+.cd_single_car_2 .cd_wireless {
+    background: url('../../../images/single/icon_wireless.png');
+}
+
+.cd_single_car_2 .cd_wireless:hover {
+    background: url('../../../images/single/icon_wireless_b.png');
+}
+
+.cd_single_car_2 .cd_bluetooth {
+    background: url('../../../images/single/icon_bluetooth.png');
+}
+
+.cd_single_car_2 .cd_bluetooth:hover {
+    background: url('../../../images/single/icon_bluetooth_b.png');
+}
+
+.cd_single_car_2 .cd_tooltip {
+	display: none;
+    position: absolute;
+    padding: 6px;
+    border: 2px solid #777777;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    top: 55px;
+	left: -10px;
+    z-index: 200;
+    width: 70px;
+	color: #FFFFFF;
+}
+
+.cd_single_car_2 .cd_tooltip:after, .cd_single_car_2 .cd_tooltip:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.cd_single_car_2 .cd_tooltip:after {
+	border-width: 8px;
+	margin-left: -8px;
+}
+.cd_single_car_2 .cd_tooltip:before {
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.cd_single_car_2 .cd_icon:hover .cd_tooltip {
+    display: block;
+}
+
+.cds_closed {
+	display: none;
+}
+
+.cd_single_car_2 .thumbnails {
+	display: none;
+	position: absolute;
+    bottom: 0;
+	width: 100%;
+}
+
+.cd_single_car_2 .single-car-thumbnail-box {
+	width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+	margin: 0px;
+	height: auto;
+}
+
+.cd_single_car_2 #single-car-thumbnail-box-container {
+	background: #FFFFFF;
+	position: relative;
+}
+
+.cd_single_car_2 #bsw_go_back_thumbs {
+	position: absolute;
+	left: 0;
+	z-index: 900;
+    top: 0;
+    margin: 0;
+	background-position-x: 0px;
+	background-position-y: 10px;
+    background-repeat: no-repeat;
+	width: 34px;
+    border-right: 1px solid #000000;
+	height: 90px;
+}
+
+.cd_single_car_2 #btw_go_forward_thumbs {
+	position: absolute;
+	right: 0;
+	z-index: 900;
+    top: 0;
+    margin: 0;
+	background-position-x: 20px;
+	background-position-y: 10px;
+    background-repeat: no-repeat;
+	width: 34px;
+    border-left: 1px solid #000000;
+	height: 90px;
+}
+
+.cd_single_car_2 .cd2_single_details {
+	
+}
+
+.cd_single_car_2 .cd2_single_details li {
+	list-style: none;
+}
+
+.cd_single_car_2 .cd2_single_details label {
+	width: 40%;
+    display: inline-block;
+	margin: 2px;
+}
+
+.cd_single_car_2 .random {
+	float: left;
+	margin: 1px;
+}
+
+.cd_single_car_2 .random_img {
+	width: 100%;
+}
+
+.cd_single_car_2 .cd_contact_buttons {
+	max-width: 252px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cd_single_car_2 .cd_contact_buttons img {
+	width: 30%;
+	max-width: 80px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.cd_single_car_2 .cd_thumbnail_img {
+	width: 125px;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.cd_single_car_2 .cd_thumbnail_div {
+	float: left;
+	width: 129px;
+}
+
+.cd_single_car_2 .thumbnails {
+	overflow: hidden;
+}
+
+.cd_single_car_2 .single-car-thumbnail-box {
+	width: 2400px;
+}
+
+.cd_single_car_2 .contact_us_widget {
+	display: none;
+}
+
+.cd_single_car_2 .contact_us_widget_btn {
+	float: left;
+}
+
+.cd_single_car_2 .email_friend_btn {
+	float: right;
+}
+
+.cd_single_car_2 .contact_us_widget_btn, .cd_single_car_2 .email_friend_btn {
+	width: 225px;
+	font-size: 24px;
+	text-align: center;
+	padding: 10px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 12px;
+}
+
+.cd_single_car_2 .contact_us_widget_btn:hover, .cd_single_car_2 .email_friend_btn:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cd_single_car_2 .call_us {
+	margin: 12px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.cd_single_car_2 .cd_email_btn_box {
+}
+
+.cd_single_car_2 .vehicle_button_img:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cd_single_car_2 .email_friend_form .single.fldrequired {
+	width: 90%;
+}

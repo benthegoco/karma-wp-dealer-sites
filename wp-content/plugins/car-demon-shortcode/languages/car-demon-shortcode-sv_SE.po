@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Car Demon Shortcode\n"
+"POT-Creation-Date: 2015-10-16 08:17-0500\n"
+"PO-Revision-Date: 2015-10-16 08:27-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:96
+msgid "Car Demon Shortcode Settings"
+msgstr "Shortcode inställningar"
+
+#: admin/admin.php:111
+msgid "Vehicle Colors"
+msgstr "Fordonet färger"
+
+#: admin/admin.php:114
+msgid "Select colors for your vehicles."
+msgstr "Välj färger från dropplistan för att ändra din logotyp."
+
+#: admin/admin.php:182
+msgid "Border widths"
+msgstr "Kant bredd"
+
+#: admin/admin.php:185
+msgid "Enter the width for each border area."
+msgstr "Ange bredden för varje gränsområde."
+
+#: admin/admin.php:313
+msgid "SETTINGS HAVE BEEN UPDATED"
+msgstr "INSTÄLLNINGAR HAR UPPDATERATS"
+
+#: admin/admin.php:317
+msgid "SETTINGS HAVE BEEN RESET"
+msgstr "INSTÄLLNINGARNA HAR ÅTERSTÄLLTS"
+
+#: car-demon-shortcode.php:104
+msgid "Thank's for installing the Car Demon Pro Shortcode PlugIn!"
+msgstr "Tackar: s för att installera bil Demon Pro kortkod PlugIn!"
+
+#: car-demon-shortcode.php:106
+msgid ""
+"Use [pro_inventory style=0] with all the normal parameters (like year, make, "
+"model, etc.)"
+msgstr ""
+"Använd [pro_inventory stil = 0] med alla normala parametrar (som år, märke, "
+"modell, etc.)"
+
+#: car-demon-shortcode.php:108
+msgid "Set style to any number between 0 and 6 to switch layouts."
+msgstr "Ställa in stil till ett tal mellan 0 och 6 växla layouter."
+
+#: loops/archive.php:37 templates/common.php:51
+msgid "Compare"
+msgstr ""
+
+#: loops/archive.php:83
+msgid "Stock #"
+msgstr ""
+
+#: loops/archive.php:87
+msgid "SPECIAL PRICE"
+msgstr ""
+
+#: loops/archive.php:98
+msgid "Vehicle Highlights"
+msgstr ""
+
+#: loops/archive.php:102 loops/single.php:97
+msgid "Mileage:"
+msgstr ""
+
+#: loops/archive.php:103
+msgid "Exterior:"
+msgstr ""
+
+#: loops/archive.php:104
+msgid "Transmission:"
+msgstr ""
+
+#: loops/archive.php:109
+msgid "CLICK HERE FOR DETAILS"
+msgstr ""
+
+#: loops/common.php:21 templates/common.php:124 templates/template_1.php:92
+#: templates/template_6.php:81
+msgid "SOLD"
+msgstr ""
+
+#: loops/common.php:72
+msgid "Vehicle Summary Top"
+msgstr ""
+
+#: loops/common.php:74
+msgid "Widgets in this area will be shown in the top of the vehicle summary."
+msgstr ""
+
+#: loops/common.php:91
+msgid "Vehicle Summary Bottom"
+msgstr ""
+
+#: loops/common.php:93
+msgid ""
+"Widgets in this area will be shown in the bottom of the vehicle summary."
+msgstr ""
+
+#: loops/common.php:137
+msgid "Other Great Deals"
+msgstr ""
+
+#: loops/single.php:62
+msgid "Click to Enlarge"
+msgstr ""
+
+#: loops/single.php:66
+msgid "Additional Images"
+msgstr ""
+
+#: loops/single.php:83
+msgid "Vehicle Summary"
+msgstr ""
+
+#: loops/single.php:95
+msgid "Condition:"
+msgstr ""
+
+#: loops/single.php:100
+msgid "Stock#:"
+msgstr ""
+
+#: loops/single.php:103
+msgid "VIN#:"
+msgstr ""
+
+#: loops/single.php:106
+msgid "Color:"
+msgstr ""
+
+#: loops/single.php:108
+msgid "Engine:"
+msgstr ""
+
+#: loops/single.php:187
+msgid "Price"
+msgstr ""
+
+#: shortcode/cd-shortcode-admin.php:11
+msgid "+ Search Results Page"
+msgstr ""
+
+#: shortcode/cd-shortcode-admin.php:14
+msgid "Select the default page for your search results:"
+msgstr ""
+
+#: shortcode/cd-shortcode-admin.php:33
+msgid ""
+"Point the search result page to the page with your inventory shortcode "
+"[cdsp_inventory]."
+msgstr ""
+
+#: shortcode/cd-shortcode-admin.php:35
+msgid "This will change the default search results page for all search forms."
+msgstr ""
+
+#: shortcode/cd-shortcode-admin.php:37
+msgid ""
+"You can override this by setting it in the search form widget or shortcode."
+msgstr ""
+
+#: shortcode/cd-shortcode.php:140 shortcode/cd-shortcode.php:144
+msgid "Results Found"
+msgstr ""
+
+#: templates/template_2.php:50 templates/template_3.php:52
+#: templates/template_4.php:55 templates/template_5.php:23
+msgid "Call us @ "
+msgstr ""
+
+#: templates/template_5.php:26
+msgid "Get Financed"
+msgstr ""
+
+#: templates/template_5.php:31
+msgid "Trade In"
+msgstr ""
+
+#: templates/template_6.php:93
+msgid "Questions? Call "
+msgstr ""
+
+#: templates/template_6.php:96
+msgid "Email Us"
+msgstr ""
+
+#: templates/template_6.php:99
+msgid "Warranty"
+msgstr ""
+
+#: templates/template_6.php:102
+msgid "Trade"
+msgstr ""
+
+#: templates/template_6.php:105
+msgid "Finance"
+msgstr ""
+
+#: templates/template_6.php:108
+msgid "Make Offer"
+msgstr ""

@@ -1,15 +1,25 @@
+/*
+/*/
+!/wp-content/
 *.log
 wp-config.php
 wp-content/advanced-cache.php
-wp-content/backup-db/
+wp-content/ai1wm-backups/
 wp-content/backups/
 wp-content/blogs.dir/
 wp-content/cache/
+wp-content/mu-plugins/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+wp-content/index.php
 
+wp-content/themes/
+!/wp-content/themes/karma/
+!/wp-content/uploads/car-demon-single-cars.js
+!/wp-content/uploads/single-cars-for-sale.css
+!/wp-content/uploads/car-demon-theme-1.2.9.css
 /.htaccess
 /license.txt
 /readme.html

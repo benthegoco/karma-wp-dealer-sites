@@ -1,0 +1,343 @@
+.cdsf_one #reset_cdsf_filters {
+	cursor: pointer;
+	float: left;
+	max-width: 140px;
+	padding: 10px;
+	color: transparent;
+	text-align: center;
+}
+.widget .cdsf_one .reset_cdsf_filters {
+	margin-top: 10px;
+	margin-left: 5%;
+}
+.cdsf_one #apply_condition, .cdsf_one #apply_make, .cdsf_one #apply_model, .cdsf_one #apply_body_style, .cdsf_one #apply_sort {
+	display: none;
+}
+.cdsf_one #search_year, .cdsf_one #apply_condition_cancel, .cdsf_one #apply_make_cancel, .cdsf_one #apply_model_cancel, .cdsf_one #apply_body_style_cancel, .cdsf_one #search_trim_level, .cdsf_one #search_transmission {
+	display: none;
+}
+.cdsf_one .apply_hide {
+	font-size: 10px;
+	width: 50px !important;
+	float: right;
+}
+.cdsf_one .cdsf_hide_options {
+	z-index: 9001!important;
+}
+.cdsf_one #car-demon-as span.cdsf_hide_options:hover {
+
+}
+.cdsf_one .cdsf_filter_active {
+	background: #b00;
+	color: #fff !important;
+}
+.cdsf_one .reset_cdsf_filters .cdsf_filter_active {
+
+}
+.cdsf_one #apply_year_cancel, .cdsf_one #apply_price_cancel, .cdsf_one #apply_mileage_cancel {
+	color: #000;
+	font-size: 10px;
+	padding: 10px;
+	cursor: pointer;
+	float: left;	
+}
+.cdsf_one #results_found_bottom {
+	float: left;
+}
+.cdsf_one #cdsf_button_box, .cdsf_one #cdsf_submit_button_box {
+	float: left;
+	width: 100%;
+}
+.cdsf_one #car-demon-as div.selectBox {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	text-align: left;
+	line-height: 26px;
+	clear: both;
+	color: #888;
+	max-width: 220px;
+	width: 100%;
+	height: 26px;
+	font-size: 12px;
+}
+.cdsf_one #car-demon-as span.selected {
+	width: 80%;
+	text-indent: 20px;
+	border: 1px solid #ccc;
+	border-right: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: #f6f6f6;
+	overflow: hidden;
+}
+.cdsf_one #car-demon-as span.selectArrow {
+	width: 22px;
+	border: 1px solid #bbb;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+	font-size: 12px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	background: #ddd;
+	line-height: 22px;
+}
+
+.cdsf_one #car-demon-as span.selectArrow,span.selected {
+	position: relative;
+	float: left;
+	height: 22px;
+	z-index: 1;
+}
+
+.cdsf_one #car-demon-as div.selectOptions {
+	position: absolute;
+	top: 23px;
+	left: 0;
+	width: 185px;
+	border: 1px solid #ccc;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	overflow: hidden;
+	background: #f6f6f6;
+	padding-top: 2px;
+	display: none;
+	max-height: 300px;
+	overflow: auto;
+	z-index: 9000;
+	background-color: #fff;
+}
+
+.cdsf_one #car-demon-as span.selectOption {
+	display: block;
+	width: 80%;
+	line-height: 20px;
+	padding: 5px 10%;
+	z-index: 9000;
+	position: relative;
+	background-color: #fff;
+}
+
+.cdsf_one #car-demon-as span.selectOption:hover {
+	color: #f6f6f6;
+	background: #4096ee;	
+}
+
+.cdsf_one .cdsf_button {
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	border-radius: 3px;
+	border: 1px #ffffff solid;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	background: #3498db;
+	margin-left: auto;
+	margin-right: auto;
+	width: 130px;
+	cursor: pointer;
+	display: block;
+	height: 35px;
+	margin-top: 20px; 
+}
+
+.cdsf_one .cdsf_button:hover {
+	color: #3498db;
+	background: #ffffff;
+	border: 1px #3498db solid;
+}
+
+.cdsf_one .cdsf_show_search {
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	border-radius: 3px;
+	border: none;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 18px;
+	background: #3498db;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	cursor: pointer;
+}
+.cdsf_one .cdsf_show_search_div {
+	width: 100%;
+	float: left;
+}
+.cdsf_one .cdsf_apply {
+	color: #000;
+	font-size: 10px;
+	padding: 10px;
+	cursor: pointer;
+	float: left;
+}
+
+.cdsf_one .cdsf_apply:hover {
+	color: #F00;
+	font-size: 10px;
+	padding: 10px;
+}
+.cdsf_one .cdsf_main_photo_box {
+	width: 250px;
+	float: left;	
+}
+.cdsf_one .cdsf_main_photo {
+	width: 250px;
+	float: left;	
+}
+.cdsf_one #vehicle_template {
+	display: none;	
+}
+/*
+Form Styles
+*/
+.cdsf_one .cdsf_item #search_location, .cdsf_one .cdsf_item #search_condition, .cdsf_one .cdsf_item #search_make, .cdsf_one .cdsf_item #search_model, .cdsf_one .cdsf_item #search_dropdown_body, .cdsf_one .cdsf_item #search_dropdown_Min_years, .cdsf_one .cdsf_item #search_dropdown_Max_years,
+	.cdsf_one .cdsf_item #search_dropdown_Min_price, .cdsf_one .cdsf_item #search_dropdown_Max_price,
+	.cdsf_one .cdsf_item #search_dropdown_miles_Min, .cdsf_one .cdsf_item #search_dropdown_miles_Max {
+	display: none;
+}
+.cdsf_one #reset_cdsf_filters {
+	cursor: pointer;
+	float: left;
+	width: 140px;
+}
+.cdsf_one #cdsf_sort_box, .cdsf_one #reset_cdsf_sort {
+	float: right;
+}
+.cdsf_one #apply_condition, .cdsf_one #apply_make, .cdsf_one #apply_model, .cdsf_one #apply_body_style, .cdsf_one #apply_sort {
+	display: none;
+}
+.cdsf_one #apply_condition_cancel, .cdsf_one #apply_make_cancel, .cdsf_one #apply_model_cancel, .cdsf_one #apply_body_style_cancel {
+	display: none;
+}
+.cdsf_one #apply_year_cancel, .cdsf_one #apply_price_cancel, .cdsf_one #apply_mileage_cancel {
+	color: #000;
+	font-size: 10px;
+	padding: 10px;
+	cursor: pointer;
+	float: left;	
+}
+.cdsf_one #results_found_bottom {
+	float: left;
+}
+.cdsf_one #cdsf_button_box, .cdsf_one #cdsf_submit_button_box {
+	float: left;
+	width: 100%;
+}
+.cdsf_one #cdsf_submit_button_box {
+
+}
+.cdsf_one .cdsf_vehicle_div {
+	margin: 10px;
+	width: 250px;
+}
+.cdsf_one .my-new-list .inventory_item {
+	height: auto !important;
+	padding: 10px;
+	list-style: none;
+	min-height: 460px;
+	width: 250px;
+	margin-left: 10px;
+}
+.cdsf_one .field_title {
+	height: 26px;
+	overflow: hidden;	
+}
+.cdsf_one .cdsf_item {
+	width: 100%;
+	max-width: 190px;
+	float: left;
+}
+.cdsf_one .field_post_id, .cdsf_one .field_link {
+	display: none;
+}
+.cdsf_one #price_range_box, .cdsf_one #mileage_range_box, .cdsf_one #year_range_box {
+	display: none;
+	position: absolute;
+	width: 200px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #eee;
+	z-index: 9000;
+	height: 40px;
+}
+.cdsf_one #car-demon-as input[type=text] {
+	width: 90%;
+	cursor: pointer;
+}
+.cdsf_one .car_demon_cds {
+    width: 100%;
+    float: left;
+	margin-bottom: 20px;
+}
+.cdsf_one .cdsf_tb_forms {
+/*	width: 80%;*/
+/*	max-width: 240px;*/
+	margin-left: auto;
+	margin-right: auto;	
+}
+.cdsf_one .car-demon-widget .cdsf_tb_forms #car-demon-as {
+	display: block;
+	width: 140px;
+}
+.cdsf_one #page_index {
+	display: none;
+}
+.cdsf_one .vehicle_compare_box {
+	display: none;    
+}
+.cdsf_one .cdsf_show_search_div {
+	display: block;
+}
+.cdsf_one .cdsf_show_search {
+	display: none;    
+}
+.cdsf_one .widget #car-demon-as span.selected {
+    max-width: 185px;
+    width: 80%;
+	height: 22px;
+	line-height: 24px;
+}
+.cdsf_one #cdsf_sort_box, .cdsf_one #reset_cdsf_sort {
+	width: 100%;
+}
+.cdsf_one .inventory_item {
+	float: left;
+}
+.cdsf_one .apply_hide {
+	display: none !important;
+}
+.cdsf_one .cd_hide, .cdsf_one .cdsf_apply_cancel, .cdsf_one .cdsf_apply {
+	display: none;
+}
+
+
+@media screen and (min-width: 462px){
+	.cdsf_one .cdsf_show_search_div {
+		display: none;
+	}
+	.cdsf_one .cdsf_show_search {
+		display: none;    
+	}
+}
+
+@media screen and (max-width: 461px){
+	.cdsf_one .cdsf_item {
+		width: 240px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	.cdsf_one #car-demon-as span.selected {
+		width: 200px
+	}
+	.cdsf_one #car-demon-as input[type=text] {
+		width: 210px!important;
+	}
+}

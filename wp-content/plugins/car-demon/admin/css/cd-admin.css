@@ -1,0 +1,443 @@
+/* CSS Document */
+@media only screen and (min-width : 767px) {
+	.cd_save_settings {
+		position: fixed;
+		top: 30px;
+		right: 0;
+		background: #CBF8DD;	
+	}
+}
+.edit_option_tabs {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 0;
+	padding: 10px;
+	cursor: pointer;
+}
+.edit_option_tabs:hover {
+	background: #57F797;
+}
+.edit_option_tabs_div {
+	width: 100%;
+	float: left;
+}
+.cd_admin_form_label {
+	font-size:14px;
+	padding-right:20px;
+	width:165px;
+	display: inline;
+	float:left;
+	font-weight: bold;
+}
+.cd_admin_form input {
+	width: 400px;
+}
+.cd_admin_form {
+	width: 600px;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: solid;
+	border-width: 2px;
+	border-color: #999999;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.small_text {
+	font-size:10px;
+}
+.admin_default_description {
+	max-width:580px;height:100px;
+}
+.admin_finance_size {
+	width:50px !important;
+}
+.admin_no_price {
+	width:282px !important;
+}
+.admin_disclaimer_notice {
+	font-weight:bold;color:#FF0000;
+}
+.admin_update_options_btn {
+	margin-left: 250px; margin-top: 15px; width: 130px !important;
+}
+.admin_pages_div {
+	max-width: 500px;
+}
+.admin_add_pages_div {
+	float:left;width:300px;
+}
+.admin_add_pages_btn {
+	cursor:pointer;
+	width:90%;
+}
+.admin_add_pages_shortcodes {
+	float:left;max-width:300px;margin-left:10px;
+	margin-top:0px;
+}
+.admin_settings_updated_title {
+	color:#FF0000;
+}
+.admin_cell_providers {
+	width:250px;
+}
+.cd_admin_filter {
+	float:left;
+}
+.cd_admin_filter_label {
+	float:left;
+	padding:3px;
+}
+.cd_admin_filter_field {
+	float: left;
+}
+.custom_option_container {
+	width: 662px;
+}
+.custom_option_directions {
+	width: 562px;
+}
+.cd_select_custom_options {
+	width: 150px;
+	height: 130px !important;
+}
+.btn_move_right {
+	width: 150px;
+	height: 26px;
+}
+.cd_custom_options_box {
+	width: 400px;
+	height: 150px;
+}
+.cd_select_custom_options_container {
+	float: left;
+	padding: 3px;
+}
+.cd_custom_options_box_container {
+	float: left;
+	padding: 3px;
+}
+.vehicle_option_group {
+	width:25%;
+	min-width:250px;
+	float: left;
+}
+.vehicle_option_group_items {
+	width:50%;
+	min-width:250px;
+	height:200px;
+	float: left;
+}
+.add_vehicle_option_group {
+	color: #093;
+	cursor: pointer;
+}
+.delete_vehicle_option_group {
+	color: #900;
+	cursor: pointer;
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.add_vehicle_option_group_form {
+	display: none;
+}
+.wrap .tab {
+	display: none;
+	margin-left: 30px;
+}
+.open_tab {
+	cursor: pointer;
+	width: 50%;
+	max-width: 250px;
+}
+.close_tab {
+	cursor: pointer;
+	width: 30%;
+	max-width: 250px;
+	float: right;
+	color: #900;
+	font-weight: bold;
+}
+.cancel_add_group {
+	cursor: pointer;
+	width: 30%;
+	max-width: 250px;
+	float: right;
+	color: #900;
+	font-weight: bold;
+}
+.btn_update_group {
+	margin-bottom: 15px;	
+}
+.cd_admin_group {
+	margin-left: 15px;
+	border: solid 1px;
+	padding: 10px;
+	max-width: 600px;
+	margin-top: 15px;
+}
+.cd_admin_group legend {
+	cursor: pointer;
+}
+.cd_option_group {
+	display: none;
+}
+.cd_admin_show_all {
+	cursor: pointer;
+	max-width: 150px;
+}
+.cd_admin_form h1 {
+	margin-left: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.cd_location {
+	display: none;
+}
+.cd_location_nav .page-numbers {
+	border: 1px solid #000;
+	margin: 1px;
+	padding: 5px;
+	background-color: #fff;
+}
+/*
+Welcome Screen
+*/
+.wrap.cd_welcome {
+	max-width: 800px;
+}
+.cd_welcome h2 {
+	font-weight: bold;
+	font-size: 32px;
+	color: #b00;
+	margin-bottom: 30px;
+}
+.cd_welcome_demon_logo {
+	float: left;
+	margin-right: 20px;
+}
+.cd_welcome_logo {
+	border-bottom: 1px solid #000;
+	max-width: 800px;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+.cd_welcome_clear {
+	clear: both;
+}
+.cd_welcome_tab_title {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	float: left;
+	width: 130px;
+	padding: 8px;
+	background: #ccc;
+	text-align: center;
+	cursor: pointer;
+}
+.cd_welcome_tab_title:hover, .cd_welcome_tab_title.active {
+	background: #333;
+	color: #fff;
+}
+.cd_welcome_tab {
+	border-top: 1px solid #999;
+	font-size: 16px;
+	margin-left: 5px;
+	padding-top: 20px;
+}
+.welcome_excerpt {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.cd_change_log {
+	font-size: 10px;
+	margin-left: 20px;
+}
+.cd_release_version {
+	font-size: 12px;
+	margin-left: -15px;
+}
+.cd_welcome_left {
+	margin: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.cd_welcome_center_shortcode {
+	width: 473px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #aaa;
+}
+.cd_welcome_center_pro {
+	width: 473px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #aaa;
+}
+.cd_whats_new h3 {
+	color: #0000ff;
+	line-height: 1.2em;
+}
+.cd_welcome_tab {
+	display: none;
+}
+.cd_welcome_tab.active {
+	display: block;
+}
+.cd_setup_inventory {
+	margin-left: 20px;
+	border: solid 1px #aaa;
+	padding: 10px;
+}
+.cd_setup_inventory input[type=text] {
+	width: 200px;
+}
+.create_inventory_results {
+	display: block;
+	margin-top: 20px;
+}
+.cd_setup_step {
+	font-size:16px;
+	color: #2B3E6B;
+	font-weight: bold;
+}
+h4.cd_setup {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+p.cd_setup_text {
+	margin-left: 20px;
+}
+.welcome_float_button {
+	float: left;
+}
+h2.cd_welcome_small {
+    font-size: 1px;
+    line-height: 1px;
+    margin: 0px;
+	padding: 0px;
+}
+.cd_go_pro_box h3, .cd_go_pro_box h2 {
+	text-align: center;
+}
+.cd_go_pro_header {
+	color: #03921D;
+	text-align: center;
+}
+.cd_go_pro ul li {
+	margin-left: 20px;
+	font-weight: bold;	
+}
+.cd_go_pro h4 {
+	cursor: pointer;
+}
+.cd_go_pro li {
+	width: 600px;
+}
+.cd_go_pro li a {
+	text-decoration: none;
+}
+.cd_go_pro div {
+	display: none;
+	text-align: center;
+}
+.cd_expand_item {
+	display: block;
+	float: left;
+	font-size: 30px;
+	color: #31C513;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+a .cd_go_pro_btn {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a .cd_go_pro_btn:hover {
+	color: #96090C;
+	background: #A2F182;
+	border: 1px solid #96090C;
+}
+.cd_go_pro_btn {
+	padding: 10px;
+	background: #96090C;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 26px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin: 10px;
+	width: 200px;
+	margin-left: 14%;
+	margin-right: auto;
+}
+.cd_home {
+	font-size:40px;
+	font-style: italic;
+	text-decoration: none;
+	display: block;
+    width: 100%;
+    text-align: center;
+}
+.cd_sample_inventory {
+	padding: 4px;
+}
+.cd_hidden {
+	display: none;
+}
+.cd_spec_cap_box {
+	display: none;
+	padding-left: 50px;
+}
+.cd_open_caps {
+    color: #0a0;
+    font-weight: bold;
+	cursor: pointer;
+}
+.cd_tooltip {
+    background-color: #9f9;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+	margin-right: 5px;
+    padding: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+	position: relative;
+}
+.cd_tip {
+	display: none;
+}
+.cd_tooltip:hover .cd_tip {
+    border: 1px solid #000;
+    background-color: #ddd;
+	display: block;
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 125px;
+}

@@ -1,0 +1,166 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Oswald|Open+Sans);
+
+.cd_8 {
+	float: left;
+	width: 30%;
+	max-width: 240px;
+	margin: 5px;
+	font-family: Oswald, "Open Sans";
+	position: relative;
+}
+
+.cd_8:hover {
+	background-color: #bbbbbb;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cd_8:hover .cd_show {
+	/*display: block;*/
+}
+
+.cd_8 .cd_show {
+	display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #ffb400;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -10%;
+    right: 10px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.cd_8 .inventory_ribbon_pro {
+	position: absolute;
+}
+
+.cd_8 .main_photo_pro {
+	position: relative;
+}
+
+.cd_8 .car_price_details_style {
+    position: absolute;
+    width: 86px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 6px;
+    bottom: 10%;
+}
+
+.cd_8 .car_final_price_style {
+	float: right;
+}
+
+.cd_8 .car_title_pro {
+	margin-left: 4px;
+}
+
+.cd_8 .description {
+	width: 100%;
+	float: left;
+	margin-left: 2px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.cd_8 .description_text {
+	display: inline;
+	margin-left: 2px;
+	margin-right: 3px;
+	float: left;
+	font-size: 14px;
+    color: #777777;
+}
+
+.cd_8 .cd_circle {
+    border-radius: 50%;
+    background-color: #777;
+    width: 6px;
+    height: 6px;
+    float: left;
+    margin: 6px;
+    margin-top: 10px;
+}
+
+.cd_8 .compare {
+	float: left;
+	width: 115px;
+	padding: 4px;
+}
+
+.cd_8 .compare_input {
+	float: left;
+	margin-top: 8px;
+}
+
+.cd_8 .vehicle_compare_label {
+    margin-left: 8px;
+    float: left;
+}
+
+.cd_8 .car_butons_row .call_us {
+	width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.cd_8 .car_butons_row .btn {
+	margin: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: left;
+    padding: 2px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+@media screen and (min-width: 381px) and (max-width: 759px){
+	.cd_8 { width: 46%; }
+	.cd_8 .main_photo_pro {
+		width: 100%;
+		max-width: 100%;
+		float: left;
+		margin-right: 5px;
+		margin: 0px;
+	}
+	.cd_8 .main_photo_pro .archive_main_photo_pro {
+		width: 100%;
+	}
+	.cd_8 .archive_main_photo_pro {
+		max-width: 100%;
+	}
+	.cd_8 .col_break {
+		clear: both;
+	}
+	.cd_8 .car_price_details_style {
+		/*margin-top: 86px;*/
+		/*margin-left: 0px;*/
+	}
+}
+/*  GO FULL WIDTH BELOW 640 PIXELS */
+@media only screen and (max-width: 380px) {
+	.cd_8 { width: 100%; }
+	.cd_8 .main_photo_pro {
+		width: 100%;
+		max-width: 100%;
+		float: left;
+		margin-right: 5px;
+		margin: 0px;
+	}
+	.cd_8 .main_photo_pro .archive_main_photo_pro {
+		width: 100%;
+	}
+	.cd_8 .archive_main_photo_pro {
+		max-width: 100%;
+	}
+}
