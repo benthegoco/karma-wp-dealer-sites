@@ -1,0 +1,446 @@
+== Archived Changelog ==
+*
+= 1.5.9 =
+* Drop down sorting is now on by default
+* Added second parameter to car_demon_display_car_list_filter()
+* Adjusted timing of car-demon-admin.js load
+* Adjusted large search form to use result_page or form_action
+* Revised $qualify_comment on pre-qualify form.
+* Form input security modifications
+* custom_spec_field_admin() will now look for options with or without decoded_ flag in field name
+* moved nag code to it's own file
+* moved functions out of main car-demon.php file to improve code organization
+* added 'Location not setup' nag to let new users know they need to setup their location(s)
+* added new location management code - added define('CD_LOCATIONS', true); to activate
+* activating new location management deactivates the old location management screen.
+* adjusted Welcome page Start Up Guide to reflect location management changes
+* added check to make sure saving no price results in a 0 price
+* moved save hook into its own file
+* added search form parameter (filter_condition) to search form shortcode
+
+= 1.5.8 =
+* Fixed drop down sort option to hide miles or price
+* Updated .po file
+* Minor adjustments
+* Change made to search-terms.php to handle 'blank' year-model as 'all'
+* Added miles min and max to Car Demon Search Query
+* Added year min and max to Car Demon Search Query
+* Corrected look_close.png
+
+= 1.5.7 =
+* Added transparancy to images that lost it during compression
+* Added class to secure.gif on finance form
+* Fixed admin settings issue from 1.5.6 that prevented some settings from updating
+
+= 1.5.6 =
+* Adjusted ribbons to fix Firefox bug
+* Changed terminology 'Edit Vehicle Option Tabs' to 'Edit Vehicle Options'
+* Integrated Vehicle Option Tab settings with main settings page
+* Renamed admin/settings.php to cd-settings.php to prevent MU network admin error
+
+= 1.5.5 =
+* Reduced image sizes
+* Removed unused images
+* Adjusted timing of contact form CSS load.
+* Added new parameters to [cd_inventory] shortcode
+* hide_sort, hide_nav, hide_results_found, cars_per_page & query
+
+= 1.5.4 =
+* Moved admin URL slug setting up and moved shortcodes down
+* Modified filter template redirect car_crf_theme_redirect()
+* Modified cr single vehicle filter to use car_demon_get_car() for $vehicle_details
+
+= 1.5.3 =
+* Added dynamic labels to search forms
+* Moved search functions and related css & js to its own folder
+* Renamed files for simplicity and clarity
+* Renamed content-replacement folder to filters
+* Adjusted admin css so it only loads on pages it is needed on
+
+= 1.5.2 =
+* Resolved issue creating false headers on some servers and causing a very ungraceful session error.
+
+= 1.5.1 =
+* Adding new admin files
+
+= 1.5.0 =
+* Public release of 1.5.0 - no changes from 1.4.98
+
+= 1.4.98 =
+* Final tweaks to Startup Guide & new settings before next update
+
+= 1.4.97 =
+* Added new Welcome Screen & Startup Guide
+
+= 1.4.96 =
+* Added Car Demon Inventory shortcode PlugIn to core
+* [cd_inventory]
+* accepts parameters title, year, make, model, body_style, condition, location
+* accepts all search form criteria as parameters to filter the vehicles shown
+* search form widget and shortcode now accepts a 'results_page' parameter
+* results_page tells form where to submit (ie. the url to the page with the shortcode)
+* added activation code to create shortcode page 'Inventory'
+
+= 1.4.95 =
+* Minor style edits
+* Modified search forms to work with shortcode add-on
+* Modified car_demon_query_search to update based on settings as well as by $_GET
+* Made sure compare feature will record info even if widget is not present
+
+= 1.4.94 =
+* Changed session options to a global variable $car_demon_options;
+
+= 1.4.93 =
+* Made sure location options do not autoload
+* Made sure taxonomy count only counts posts with publish status
+* Added prices to car_demon_get_car($post_id) array
+* Changed $this->WP_WIDGET to parent::__construct
+
+= 1.4.92 =
+* Updated location saving function to support a large number of locations
+
+= 1.4.91 = 
+* Added pagination to Contact Settings to help support users with lots of locations
+* Placed location contact settings into expandable panels
+
+= 1.4.9 =
+* Put admin settings into collapsible groups so they can be shown or hidden as needed
+* Revised Content replacement single vehicle page
+* Removed alternate functions for content replacement
+* Removed popup image option due to lack of use
+
+= 1.4.8 =
+* Modified Vehicle Header Widget to not output empty div if no widget is used
+* Minor css changes on finance form
+* Adjusted finance form js for wider browser support
+* Corrected undefined index errors on finance form when debug set to true
+* Added send_to parameter to finance shortcode
+
+= 1.4.7 =
+* Made similar vehicles on the single vehicle page an option so it can be turned off if desired
+
+= 1.4.6 =
+* Adjusted default #look_close max-width on single vehicle page
+* Changed default vehicle widget and similar vehicles to use custom labels
+
+= 1.4.5 =
+* Finance form modifications - preparing for rewrite to allow it to be filled out in steps
+
+= 1.4.4 =
+* Redefined $meta_query to assign a blank variable if sold vehicles are being shown.
+
+= 1.4.3 =
+* Changed template_redirect to template_loaded
+* car_demon_count_active_items now checks post_status for publish
+* Replaced core constants WP_PLUGIN_URL & WP_CONTENT_URL with plugins_url()
+* Added ability to show or hide taxonomy uis
+
+= 1.4.2 =
+* Defined index in car-demon-vin-query-admin.php line 27
+* Defined variables in car-demon-vin-query-admin.php lines 146-149
+* Minor adjustments to car-demon-query.php
+* Added check to make sure correct tab message appears when vehicle is added
+* car_demon_simple_search function now returns instead of echos
+
+= 1.4.1 =
+* Added filter to Car Demon query(s) - car_demon_query_filter
+* Added filter to Car Demon sort - car_demon_sort_filter
+* Added filter to search box shortcoce - car_demon_search_shortcode_filter
+* Added filter to large search form - car_demon_search_form_filter
+* Added filter to small search form - car_demon_small_search_form_filter
+* Added filter to "search by" - car_demon_searched_by_filter
+* Added additional css classes to form elements
+* Adjusted search form item counting to use $wpdb->get_var instead of mysql_fetch_array()
+* Replaced all instances of mysql_fetch_array() with $wpdb->get_var
+* Combined transmission and transmission_long fields
+* Added filter to Car Demon price - car_demon_price_filter
+* Used price filter to adjust price styles when using content replacement
+
+= 1.4.0 =
+* The cars-for-sale url slug can now be changed on settings page;
+* This means your inventory can now be http://yoursite.com/chicago-class-cars;
+* It also means you can do http://yoursite.com/inventory or something similar
+* Added car_demon_single_car_filter so developers can filter default single car pages
+* add_filter('car_demon_single_car_filter', 'my_car_demon_single_car',10,2);
+* add_filter('car_demon_display_car_list_filter', 'my_car_demon_car_list',10,2);
+* Then to filter add function my_car_demon_single_car($content, $post_id) etc.
+* Added Top mobile menu option
+* Added snippet to make sure form css and js don't load on Admin pages
+* Replace time and date code on contact form widget to match other forms
+* Moved Custom sales affiliate code to only run on front side of site
+* Updated days and years variable in finance form
+* Changed search form url to get_bloginfo('wpurl');
+* Added css class similar_cars_box_title
+
+= 1.3.9 =
+* Improved support for handling multiple popup forms on a single page
+* Improved support for displaying form error messages by insuring page scrolls to top of msg
+* Resolved issue with transmission field vs. transmission field long
+
+= 1.3.8 =
+* Change all mail() functions to wp_mail() to keep consistent with WordPress
+* Modified Server hash code to prevent potential issues for IIS users
+
+= 1.3.7 =
+* Switched stock_num references to stock_number
+* Removed taxonomy UIs on single vehicle edit pages to reduce confusion
+* Modified dynamic spec options to fix issues with some legacy fields not populating
+* Added hidden admin option to allow usage of legacy specs code
+* Updated CAR_DEMON_PATH constant to use prefered method of determining plugin path
+* Resolved random blank thumbnail issue on single cars pages
+
+= 1.3.6 =
+* Added support for jquery ui to handle auto load on forms
+
+= 1.3.5 =
+* Added TGM-Plugin-Activation class to suggest recommended plugins like WP-Pagenavi
+* Many thanks to Thomas Griffin for this excellent addition
+
+= 1.3.4 =
+* Modified code to allow multiple popup form shotcodes for different form types
+* Ran debug and resolved misc errors
+
+= 1.3.3 =
+* Resolved utf encoding error that was causing session errors and activation errors
+
+= 1.3.2 =
+* Replaced CR styles folder
+
+= 1.3.1 =
+* Removed nag notice for dashboard
+* Removed references to CarDemonsPro.com
+* Changed timing on loading vehicle page widget areas
+
+= 1.3.08 =
+* Reworked css and js for autocomplete on trade and finance form
+* Revised content replacement feature to work with dynamic inventory load
+
+= 1.3.07 =
+* Added custom spec feature
+* Added custom label feature for default fields
+* Put save button in fixed div to float on top of settings page
+
+= 1.3.06 =
+* Added content replacement feature to make Car Demon compatible with as many themes as possible.
+
+= 1.3.05 =
+* Added ability to select sidebars, assign IDs and container classes.
+* After installing this update you will need to set your sidebars in Car Demon Settings.
+* Added form buttons to form css check
+* Removed old forms folder
+* Added $no_content to function car_demon_vehicle_detail_tabs($post_id, $no_content=false)
+
+= 1.3.04 =
+* Hid message stating Vin has already been decoded.
+
+= 1.3.03 =
+* Hid specs condition selection.
+
+= 1.3.02 =
+* Updated outgoing csv feed to handle new fields.
+
+= 1.3.01 =
+* Updated engine field in single car page.
+
+= 1.3.0 =
+* Added shortcode for random car.
+* Bug Fix - Count active items now flags only published vehicles 
+* Credit to Guy Labbé - guylabbe.ca for beta testing and bug reporting -j
+* Credit to Chris Porter for taking the lead -j
+* Added settings hooks - car_demon_settings_hook & car_demon_settings_update_hook
+* Changed _images_value file type check to always return true.
+* Added the ability to select the # of vehicles shown on archive and search pages.
+* Removed last of the split functions.
+* Notice added to alert users who do not have dashboard installed that it is available.
+* Export csv feed now supports multisite.
+
+= 1.2.9 =
+* Fixed staff page shortcode issue with WordPress Multi-site.
+* Improved vehicle photo management. Added quick photo delete links next to thumbnails.
+* Tweaked Finance Form css so it looks nicer on the Twenty Eleven Theme
+* Changed all $car_demon_pluginpath variables to Constant CAR_DEMON_PATH
+* Tweaked vehicle css to add some responsive starting points.
+* More work on form .css
+* Added the ability to change and modify the options displayed on the vehicle tabs.
+* Added a new ability to modify the default About Us tab. Now located with other tab options.
+* Added default mobile header image.
+* Re-enabled comments for post-type cars-for-sale.
+* Localized admin area js files
+* Localized Search js
+* Localized Single Car Scripts
+* Added new function car_demon_get_car($post_id) to return vehicle details as an array.
+* Added Spanish Translation file thanks to the efforts of Julian Gomez www.mirazamagazine.com
+* Modified the title trim to always return a title even if no trim is set
+* Added icon to cars-for-sale post type
+* Added French Translation thanks to the efforts of Guy Labbé http://guylabbe.ca/
+* Revised settings page and grouped options.
+* Adjusted admin js and revised vin query decode button to denote a vin that has already been deecoded as one that has a model field.
+
+= 1.2.8 =
+* Added option to unload vehicle css.
+* Added option to trim title by selected amount if desired.
+* Unhid Condition and Body Style taxonomies.
+
+= 1.2.7 =
+* Adjusted ADFxml attachments
+* Removed FormKey from forms and switched to using WordPress nonce
+* Fixed ribbon insert issue that prevented inserting images into the description area
+* Added a Manage Photos link to the edit Car page to help make adding multiple photos easier.
+
+= 1.2.6 =
+* Added 2 new shortcodes - [search_form] and [search_box], [search_form] has one arguement 'size' set it to blank, 0, 1, or 2
+* Added option to easily turn off css for Forms.
+* Moved files related to forms into new sub-folders and added conditional statements to prevent css and js files from loading when not needed
+
+= 1.2.5 =
+* Cleaned up css
+* Tried to resolve all known issues with Yoast SEO
+* Ran PlugIn with debug set to true, resolved two minor errors
+
+= 1.2.4 =
+* Added link to user's custom landing page when using staff page shortcode.
+* Tweaked the simple wide search from to include an option to search by stock number.
+* Added custom photo to car contact array.
+* Added shortcode 'highlight_staff', can be dropped into a page to display profile for specific sales person
+* Added shortcode 'vehicle_cloud' to allow in page listing of inventory links, defaults to a list of body styles.
+* Added shortcode 'vehicle_search_box', creates a small vehicle keyword search box. Uses arguements 'button' for the button text and 'message' to display a custom message above the search box.
+* Increased maximum field length in calculator.
+* Minor style updates.
+
+= 1.2.3 =
+* Making sure all changes from 1.2.1 made it into the updates
+* Resolved issue with ADFxml not sending for all forms on IIS systems
+* Minor CSS tweaks
+* Updated Dutch Translation files from Ciprian Dracea.
+* Fixed issue with Email a Friend form causing it to fail on submission.
+* Added new shortcode [qualify] that creates a basic pre-qualification finance form. Has 3 optional arguements; location, popup_id, popup_button.
+* Fixed spelling error in British Translation file.
+* Added popup image option for single vehicle pages. If yes is selected then hovering over vehicle thumbnails will popup full size image.
+* Added Portuguese Translation files thanks to the efforts of Danilo Favero (danilofavero).
+* Restyled admin filter options for Cars for Sale, labels now line up properly.
+* Updated .po file with all the new fields to be translated.
+
+= 1.2.2 =
+* SVN ate version 1.2.1, it did not digest well.
+
+= 1.2.1 =
+* Added options to Car Demon Settings to manage vehicle sorting options.
+* Added British Translation file thanks to the efforts of Steven Coutts.
+* Added Italian Translation file thanks to the efforts of WordPress.org User: Qax.
+* Added option on vehicle edit page to show or hide vehicle option tabs if desired.
+* Added option in Car Demon Settings to hide vehicle option tabs on All vehicles if desired.
+* Continuing to clean up CSS.
+* Split finance form into multiple pages so segments can be reused.
+* Fixed error with calculator widget that caused prices with , to error.
+* Fixed issue with vehicle descriptions not formatting correctly.
+* Added Facebook meta fields to control Title, URL and Image sent using Facebook share button.
+
+= 1.2.0 =
+* Continued refining Template pages to reduce code needed to add new styles.
+* Add several action hooks to templates; car_demon_sidebar, car_demon_vehicle_sidebar, car_demon_before_main_content, car_demon_after_main_content
+* Added new arguments to several form shortcodes; popup_id and popup_button, these optional arguments allow you to add a button to a page that opens the form in a popup lightbox. See the FAQ for usage.
+* Added admin option to display sold vehicles in search results if desired.
+* Added admin option to BCC site admin when form is filled out.
+* Added extra layer of data sanitization for Admin area inputs.
+* A big thank you goes out to Ciprian Dracea for giving assistance in adding the shortcodes to all of the forms and helping to refine the PlugIn.
+
+= 1.1.9 =
+* Fixed issue with Vehicle Edit page that was causing options to not appear.
+* Minor CSS tweaks.
+* Moved template related functions to their own file in include folder.
+* Continued refining Template pages to reduce code needed to add new styles.
+* Move person.gif file to root images folder.
+
+= 1.1.8 =
+* Added admin setting to allow you to add text or HTML directly before the listings begin.
+* Continued to refine template pages and style options.
+* Added admin setting to use Post Title for Vehicle Title instead of 'Year Make Model'.
+* Continued refining Template pages to reduce code needed to add new styles.
+
+= 1.1.7 =
+* Corrected issue preventing prices on vehicle edit list page from updating.
+* Corrected issue causing images to not insert in posts.
+* Cleaned up search and archive template. Moved custom queries to their own functions to make adding additional theme styles easier.
+* Enhanced shotcodes for Forms to give users more power in reusing forms on different pages and controlling where each form goes.
+* Shortcodes for part_request, service_request, service_quote, trade & finance_form now have the argument "location" added to them.
+* Shortcode for contact_us now has the argument "send_to" added to it.
+* See the FAQ on how to use the shortcodes.
+
+= 1.1.6 =
+* Adding updated translations for Dutch and Romanian, thanks again to the efforts of Ciprian Dracea (Drake).
+
+= 1.1.5 =
+* Fixed issue with vehicle archive page that caused archive pages to load with error.
+* Minor css tweaks.
+* Added option to add dynamic ribbons to all vehicles based on condition, mileage or price.
+
+= 1.1.4 =
+* Removed unused js files.
+* Continued cleaning code to meet WordPress coding standards.
+* Continued tweaking CSS.
+* Fixed profile photo upload issue, path to js file had been changed and code was not updated.
+* Added location support even if no vehicles have been added to a location.
+* Fixed issue with newly added vehicles not updating sold status causing vehicles to not show.
+* Added translations for Dutch and Romanian thanks to the efforts of Ciprian Dracea (Drake).
+* Fixed issue with localization not working, again this was thanks to the efforts of Ciprian Dracea (Drake).
+* Built new .po file.
+* Removed banners on main photos by default and added ability to select an included banner or add a custom banner to each vehicle.
+* For best results custom banners should be 112x112 transparent png or gif.
+* Included currency symbol code into vehicle search form.
+
+= 1.1.3 =
+* Built first .po file for translation.
+* Cleaned up more css.
+* Added option to put currency symbol after price.
+
+= 1.1.2 =
+* Added ability to select custom currency symbol for prices.
+
+= 1.1.1 =
+* Fixed issue on adding new vehicle that caused error to popup.
+* More css clean up. Trying to make code as clean and logical as possible.
+
+= 1.1.0 =
+* Moved vehicle options to more logical place on vehicle edit page and did away with the popup lightbox to edit options.
+* More code cleaning and consolidation, enqueued more scripts and styles.
+* Began process of making code semantic, moving inline styles to css classes. Lots to go.
+
+= 1.0.92 =
+* Minor code clean up and consolidation.
+* Cleaned up misc js and css, enqueued multiple scripts and style sheets.
+* Resolved jQuery no conflict issue on trade and finance form.
+
+= 1.0.8 =
+* Changed label on VinQuery.com ID  to VinQuery.com Access Code to match correct terminology.
+* Added option to manually select VinQuery Report Type.
+
+= 1.0.7 =
+* Did some minor code consolidation.
+
+= 1.0.6 =
+* Fixed css issue with search widget kicking field onto next row when viewing on iPad.
+* Cleaned up search forms.
+
+= 1.0.5 =
+* 1.0.4 Would not update to repository. Rebuit new tag and committed.
+
+= 1.0.4 =
+* Fixed issue on single vehicle page to prevent error when pulling similiar body styles when no body style has been entered.
+* Updated ReadMe file for clarity on adding vehicles.
+* Removed unneeded jQuery references.
+* Changed paths for jQuery form handlers.
+
+= 1.0.3 =
+* Resolved issue with mini add vehicle form on dashboard.
+
+= 1.0.2 =
+* Cleaned up vehicle edit page and removed redundant items.
+* Tried to make it easier to manage the options on each vehicle.
+* Moved vehicle price fields in with other vehicle options.
+* Changed function used to retrieve main thumbnail image on single vehicle page.
+* Sanitized additional data input on admin side to prevent rogue editor from causing potential issues.
+
+= 1.0.1 = 
+* Fixed jQuery conflict on single cars theme page
+= 1.0.0 =
+* Initial Public Release

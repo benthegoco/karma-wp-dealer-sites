@@ -1,0 +1,157 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Oswald|Open+Sans);
+.cd_5 .inventory_ribbon_pro {
+	position: absolute;
+}
+.cd_5 .main_photo_pro {
+	width: 100%;
+	max-width: 200px;
+	float: left;
+	margin-right: 5px;
+	margin: 0px;
+}
+.cd_5 .photo_thumb_pro {
+	width: 100%;
+	display: block;
+}
+.cd_5 .archive_main_photo_pro {
+	width: 100%;
+}
+.cd_5.car_item_pro {
+	display: block;
+	padding: 0px;
+	max-width: 800px;
+	font-family: 'Oswald', sans-serif;
+	float: left;
+	width: 100%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	line-height: 22px;
+}
+.cd_5 .car_title_pro {
+	font-size: 20px;
+	margin-left: 2%;
+}
+.cd_5 .section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.cd_5 .compare {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100px;
+}
+.cd_5 .compare_input {
+	max-width: 50px;
+	float: left;
+}
+.cd_5 .description {
+	margin-top: 5px;
+	min-width: 250px;
+}
+.cd_5 .description_label {
+	float: left;
+	width: 40%;
+	margin: 1%;
+}
+.cd_5 .description_text {
+	float: left;
+	width: 56%;
+	margin: 1%;
+}
+.cd_5 .car_price_details_style {
+	text-align: center;
+	margin-top: 10px;
+}
+.cd_5 .car_your_price_style, .cd_5 .car_final_price_style {
+	font-size: 22px;
+	color: #13CD1D;
+	line-height: 26px;
+}
+.cd_5 .car_price_msrp, .cd_5 .car_price_discount, .cd_5 .car_price_rebate {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #8B2222;
+	font-weight: bold;
+}
+.cd_5 .cd_change {
+	font-size: 12px;
+	text-decoration: underline;
+	vertical-align: text-top;
+	margin-left: 3px;
+}
+.cd_5 .car_phone {
+	text-align: center;
+	font-size: 18px;
+	color: #0b0;
+	margin-top: 16px;
+}
+.cd_5 .car_email a {
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+}
+.cd_5 .car_email {
+	text-align: center;
+	margin: 1.5%;
+	cursor: pointer;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #fff;
+}
+/*  COLUMN SETUP  */
+.cd_5 .col {
+	display: block;
+	float:left;
+}
+.cd_5 .col:first-child { margin-left: 0; }
+/*  GROUPING  */
+.cd_5 .group:before,
+.cd_5 .group:after { content:""; display:table; }
+.cd_5 .group:after { clear:both;}
+.cd_5 .group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FOUR  */
+.cd_5 .cols_4_of_4 {
+	width: 100%;
+}
+.cd_5 .cols_3_of_4 {
+	width: 75%;
+}
+.cd_5 .cols_2_of_4 {
+	width: 50%;
+}
+.cd_5 .cols_1_of_4 {
+	width: 25%;
+}
+@media screen and (min-width: 381px) and (max-width: 759px){
+	.cd_5 .cols_1_of_4, .cd_5 .cols_2_of_4, .cd_5 .cols_3_of_4, .cd_5 .cols_4_of_4 { width: 50%; }
+	.cd_5 .main_photo_pro {
+		width: 100%;
+		max-width: 100%;
+		float: left;
+		margin-right: 5px;
+		margin: 0px;
+	}
+	.cd_5 .col_break {
+		clear: both;
+	}
+}
+/*  GO FULL WIDTH BELOW 640 PIXELS */
+@media only screen and (max-width: 380px) {
+	.cd_5 .col {  margin: 1% 0 1% 0%; }
+	.cd_5 .cols_1_of_4, .cd_5 .cols_2_of_4, .cd_5 .cols_3_of_4, .cd_5 .cols_4_of_4 { width: 100%; }
+	.cd_5 .main_photo_pro {
+		width: 100%;
+		max-width: 100%;
+		float: left;
+		margin-right: 5px;
+		margin: 0px;
+	}
+}
+
+.cd_5 .cds_contact_form_5 {
+	display: none;
+}

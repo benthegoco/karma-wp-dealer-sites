@@ -1,0 +1,35 @@
+/* CSS Document */
+.keyword_search_form {
+	background:#F3F3F1;
+	max-width:315px;
+	width: 90%;
+	height:42px;
+	border:1px solid #DFDFDF !important;
+	-webkit-border-radius: 8px !important;
+	-moz-border-radius: 8px !important;
+	border-radius: 8px !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.keyword_search_criteria {
+	background:#F3F3F1;
+    border: none !important;
+    padding: 0 !important;
+	font-size: 14px;
+	margin-left: 3%;
+	font-weight: bold;
+	color: #B2B2B2 !important;
+	width: 80%;
+	margin-top: 12px;
+}
+.keyword_search_button {
+    border: none;
+    background: none;
+	margin-top: 10px;
+	float: right;
+}
+.keyword_search_glass {
+	cursor: pointer;	
+}

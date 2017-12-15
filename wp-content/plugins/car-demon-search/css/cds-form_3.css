@@ -1,0 +1,347 @@
+.clear {
+	clear: both;
+}
+
+.cdsf_three.cdsf_item {
+	padding: 2%;
+	margin: 2px;
+	margin-bottom: 10px;
+	float: left;
+	min-width: 188px;
+	max-width: 220px;
+	width: 100%;
+}
+
+.cdsf_three .cd_search_home .cdsf_button {
+	margin-top: 16px;
+}
+
+.cdsf_three #cd_as_results_box {
+	display: none;
+}
+
+.cdsf_three .reset_cdsf_filters, .cdsf_three .cdsf_apply, .cdsf_three .cdsf_apply_cancel, .cdsf_three .apply_hide, .cdsf_three #search_location, .cdsf_three #search_condition, .cdsf_three #search_make, .cdsf_three #search_model, .cdsf_three #search_dropdown_Min_years, .cdsf_three #search_dropdown_Max_years, .cdsf_three #search_dropdown_Min_price, .cdsf_three #search_dropdown_Max_price, .cdsf_three #search_dropdown_miles_Min, .cdsf_three #search_dropdown_miles_Max, .cdsf_three #search_dropdown_body {
+	display: none !important;
+}
+.cdsf_three .cd_hide {
+	display: none;
+}
+.cdsf_three #reset_cd_as_filters {
+	cursor: pointer;
+    /* float: left; */
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.cdsf_three .widget .reset_cd_as_filters {
+	margin-top: 10px;
+	margin-left: 5%;
+}
+.cdsf_three #search_year,.cdsf_three #apply_condition, .cdsf_three #apply_make, .cdsf_three #apply_model, .cdsf_three #apply_body_style, .cdsf_three #apply_sort,  .cdsf_one .search_trim_level, .cdsf_one .search_transmission,  .cdsf_three #search_trim_level, .cdsf_three #search_transmission {
+	display: none;
+}
+.cdsf_three #apply_condition_cancel, .cdsf_three #apply_make_cancel, .cdsf_three #apply_model_cancel, .cdsf_three #apply_body_style_cancel {
+	display: none;
+}
+.cdsf_three .apply_hide {
+	font-size: 10px;
+	width: 50px !important;
+	float: right;
+}
+.cdsf_three .cd_as_hide_options {
+	z-index: 9001!important;
+}
+.cdsf_three #car-demon-as span.cd_as_hide_options:hover {
+
+}
+.cdsf_three .cd_as_filter_active {
+	background: #b00;
+	color: #fff !important;
+}
+.cdsf_three .reset_cd_as_filters .cdsf_three .cd_as_filter_active {
+
+}
+.cdsf_three #apply_year_cancel, .cdsf_three #apply_price_cancel, .cdsf_three #apply_mileage_cancel {
+	color: #000;
+	font-size:10px;
+	padding: 10px;
+	cursor: pointer;
+	float: left;	
+}
+.cdsf_three #results_found_bottom {
+	float: left;
+}
+.cdsf_three #cd_as_button_box, .cdsf_three #cd_as_submit_button_box {
+	float: left;
+	width: 100%;
+}
+.cdsf_three #car-demon-as div.selectBox {
+	position:relative;
+	display:inline-block;
+	cursor:pointer;
+	text-align:left;
+	line-height:30px;
+	clear:both;
+	color:#888;
+}
+.cdsf_three #car-demon-as span.selected {
+	width:100px;
+	text-indent:20px;
+	border:1px solid #ccc;
+	border-right:none;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	background:#f6f6f6;
+	overflow:hidden;
+}
+.cdsf_three #car-demon-as span.selectArrow {
+	width:30px;
+	border:1px solid #60abf8;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	text-align:center;
+	font-size:20px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	background:lavender;
+}
+
+.cdsf_three #car-demon-as span.selectArrow, .cdsf_three span.selected {
+	position:relative;
+	float:left;
+	height:30px;
+	z-index:1;
+}
+
+.cdsf_three #car-demon-as div.selectOptions {
+	position:absolute;
+	top:28px;
+	left:0;
+	width:198px;
+	border:1px solid #ccc;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	overflow:hidden;
+	background:#f6f6f6;
+	padding-top:2px;
+	display:none;
+	max-height: 300px;
+	overflow:auto;
+	z-index: 9000;
+	background-color: #fff;
+}
+
+.cdsf_three #car-demon-as span.selectOption {
+	display:block;
+	width:98%;
+	line-height:20px;
+	padding:5px 10%;
+	z-index: 9000;
+	position: relative;
+	background-color: #fff;
+}
+
+.cdsf_three #car-demon-as span.selectOption:hover {
+	color:#f6f6f6;
+	background:#4096ee;	
+}
+
+.cdsf_three .cd_as_button {
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	border-radius: 3px;
+	border: none;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	background: #3498db;
+	margin-left: auto;
+	margin-right: auto;
+	width: 130px;
+	cursor: pointer;
+	float: left;
+}
+
+.cdsf_three .cd_as_show_search {
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	border-radius: 3px;
+	border: none;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 18px;
+	background: #3498db;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	cursor: pointer;
+}
+.cdsf_three .cd_as_show_search_div {
+	width:100%;
+	float: left;
+}
+.cdsf_three .cd_as_apply {
+	color: #000;
+	font-size:10px;
+	padding: 10px;
+	cursor: pointer;
+	float: left;
+}
+
+.cdsf_three .cd_as_apply:hover {
+	color: #F00;
+	font-size:10px;
+	padding: 10px;
+}
+.cdsf_three .cd_as_main_photo_box {
+	width: 250px;
+	float:left;	
+}
+.cdsf_three .cd_as_main_photo {
+	width: 250px;
+	float:left;	
+}
+.cdsf_three #vehicle_template {
+	display: none;	
+}
+/*
+Form Styles
+*/
+.cdsf_three .cd_as_item #search_location, .cdsf_three .cd_as_item #search_condition, .cdsf_three .cd_as_item #search_make, .cdsf_three .cd_as_item #search_model, .cdsf_three .cd_as_item #search_dropdown_body, .cdsf_three .cd_as_item #search_dropdown_Min_years, .cdsf_three .cd_as_item #search_dropdown_Max_years,
+	.cdsf_three .cd_as_item #search_dropdown_Min_price, .cdsf_three .cd_as_item #search_dropdown_Max_price,
+	.cdsf_three .cd_as_item #search_dropdown_miles_Min, .cdsf_three .cd_as_item #search_dropdown_miles_Max {
+	display:none;
+}
+.cdsf_three #cd_as_sort_box, .cdsf_three #reset_cd_as_sort {
+	float: right;
+}
+.cdsf_three #apply_condition, .cdsf_three #apply_make, .cdsf_three #apply_model, .cdsf_three #apply_body_style, .cdsf_three #apply_sort {
+	display: none;
+}
+.cdsf_three #apply_condition_cancel, .cdsf_three #apply_make_cancel, .cdsf_three #apply_model_cancel, .cdsf_three #apply_body_style_cancel {
+	display: none;	
+}
+.cdsf_three #apply_year_cancel, .cdsf_three #apply_price_cancel, .cdsf_three #apply_mileage_cancel {
+	color: #000;
+	font-size:10px;
+	padding: 10px;
+	cursor: pointer;
+	float: left;	
+}
+.cdsf_three #results_found_bottom {
+	float: left;
+}
+.cdsf_three #cd_as_button_box, .cdsf_three #cd_as_submit_button_box {
+	float: left;
+	width: 100%;
+}
+.cdsf_three #cd_as_submit_button_box {
+
+}
+.cdsf_three .cd_as_vehicle_div {
+	margin: 10px;
+	width: 250px;
+}
+.cdsf_three .my-new-list .inventory_item {
+	height: auto !important;
+	padding: 10px;
+	list-style: none;
+	min-height: 460px;
+	width: 250px;
+	margin-left: 10px;
+}
+.cdsf_three .field_title {
+	height: 26px;
+	overflow: hidden;	
+}
+.cdsf_three .cd_as_item {
+	width:100%;
+	max-width: 240px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*float:left;*/
+}
+.cdsf_three .field_post_id, .field_link {
+	display: none;	
+}
+.cdsf_three #price_range_box, .cdsf_three #mileage_range_box, .cdsf_three #year_range_box {
+	display: none;
+	position: absolute;
+	width: 200px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: beige;
+	z-index: 9000;
+	height: 50px;
+}
+.cdsf_three #car-demon-as input[type=text] {
+	width: 90%;
+	cursor: pointer;
+}
+.cdsf_three .car-demon-widget .cd_tb_forms #car-demon-as {
+	display: block;
+	width: 140px;
+}
+.cdsf_three #page_index {
+	display: none;
+}
+
+.cdsf_three .vehicle_compare_box {
+	display: none;    
+}
+.cdsf_three .cd_as_show_search_div {
+	display:block;
+}
+.cdsf_three .cd_as_show_search {
+	display:none;    
+}
+.cdsf_three .widget #car-demon-as span.selected {
+	width: 150px
+}
+
+.cdsf_three .widget #car-demon-as input[type=text] {
+	width: 170px!important;
+}
+.cdsf_three #car-demon-as input[type=text] {
+	width: 115px !important; 
+}
+.cdsf_three .cd_as_button {
+	height: 35px;
+	margin-top: 20px; 
+}
+.cdsf_three #cd_as_sort_box, .cdsf_three #reset_cd_as_sort {
+	width: 100%;
+}
+.cdsf_three .inventory_item {
+	float: left;
+}
+@media screen and (min-width: 462px){
+	.cdsf_three .cd_as_show_search_div {
+		display:none;
+	}
+	.cdsf_three .cd_as_show_search {
+		display:none;    
+	}
+}
+
+@media screen and (max-width: 461px){
+	.cdsf_three .cd_as_item {
+		width: 240px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	.cdsf_three #car-demon-as span.selected {
+		width: 200px
+	}
+	.cdsf_three #car-demon-as input[type=text] {
+		width: 210px!important;
+	}
+}
