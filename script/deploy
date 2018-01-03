@@ -1,0 +1,7 @@
+#!/bin/sh
+ 
+ssh kennytaht45@thegocostaging.com <<EOF
+  cd ~/public_html/karma/staging/karma_oc/
+  git pull
+  exit
+EOF
