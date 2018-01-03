@@ -1967,5 +1967,8 @@ span.day-of-week {
 span.time-of-week {
 	white-space: nowrap;
 }
+.fake-class {
+//nothing to see here
+}
 
 
