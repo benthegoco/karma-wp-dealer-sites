@@ -98,10 +98,17 @@ function cds_display_single_car($post_id) {
 
     $car = car_demon_get_car($post_id);
 
-    setlocale(LC_MONETARY, 'en_US.utf8');
+    /* RS check for location from site url */
+                        if(strpos(get_site_url(),"montreal") || strpos(get_site_url(),"vancouver"){
+                        setlocale(LC_MONETARY, 'en_CA.utf8');
 
-    $vehicle_price = money_format('$%.0i', $car['price']);//RS: remove trailing zeros
+    $vehicle_price = money_format('$%.0i', $car['price']); //RS: remove trailing zeros
+    $vehicle_price = str_replace('CAD','CAD ',$vehicle_price);
+                        } else {
+                        setlocale(LC_MONETARY, 'en_US.utf8');
 
+                        $vehicle_price = money_format('$%.0i', $car['price']); //RS: remove trailing zeros
+                        }
 
 
     $html .= '
