@@ -27,4 +27,4 @@ wp-content/themes/*
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
-
+.DS_Store
