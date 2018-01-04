@@ -378,7 +378,7 @@ function cdcr_loop($content, $post_id) {
 			$car = car_demon_get_car($post_id);
 
 			/* RS check for location from site url */
-			if(strpos(get_site_url(),"montreal") || strpos(get_site_url(),"vancouver"){
+    		if(strpos(get_site_url(),"montreal") || strpos(get_site_url(),"vancouver")){
 			setlocale(LC_MONETARY, 'en_CA.utf8');
 
     $vehicle_price = money_format('$%.0i', $car['price']); //RS: remove trailing zeros
