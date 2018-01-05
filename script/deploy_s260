@@ -1,0 +1,7 @@
+#!/bin/sh
+ 
+ssh s260@64.91.247.91 <<EOF
+  cd /home/s260/html/
+  git pull origin master
+  exit
+EOF

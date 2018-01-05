@@ -1,0 +1,7 @@
+#!/bin/sh
+ 
+ssh s48@64.91.247.91 <<EOF
+  cd /home/s48/html/
+  git pull origin master
+  exit
+EOF
