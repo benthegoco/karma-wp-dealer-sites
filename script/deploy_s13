@@ -1,0 +1,7 @@
+#!/bin/sh
+ 
+ssh s13@64.91.247.91 <<EOF
+  cd /home/s13/html/
+  git pull origin master
+  exit
+EOF
