@@ -387,7 +387,7 @@ function cdcr_loop($content, $post_id) {
 			setlocale(LC_MONETARY, 'en_US.utf8');
 
 			$vehicle_price = money_format('$%.0i', $car['price']); //RS: remove trailing zeros
-			$vehicle_price = str_replace('USD','',$vehicle_price);	//RS: removed USD from currency
+			$vehicle_price = str_replace('USD','',$vehicle_price);	//RS: removed USD from currency.
 			}
 
 
