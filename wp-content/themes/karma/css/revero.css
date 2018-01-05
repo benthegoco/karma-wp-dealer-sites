@@ -42,6 +42,7 @@
 
 @font-face {
     font-family: 'Nexa';
+    src: url('../fonts/NexaLight.svg') format('svg');
     src: url('../fonts/NexaLight.eot');
     src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
         url('../fonts/NexaLight.woff') format('woff'),
