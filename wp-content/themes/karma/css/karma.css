@@ -116,6 +116,7 @@ header .karma_navigation li a:hover, .footerNav li a:hover {
 
 .karma_navigation {
 	text-transform: uppercase;
+	font-size: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
