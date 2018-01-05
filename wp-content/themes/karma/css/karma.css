@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'NexaLight';
-	src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaLight.otf') format('opentype'), url('../fonts/NexaLight.woff') format('woff'), url('../fonts/NexaLight.ttf') format('truetype'), url('../fonts/NexaLight.svg#NexaLight') format('svg');
+	src:  url('../fonts/NexaLight.svg#NexaLight') format('svg'), url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'), url('../fonts/NexaLight.otf') format('opentype'), url('../fonts/NexaLight.woff') format('woff'), url('../fonts/NexaLight.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -117,6 +117,7 @@ header .karma_navigation li a:hover, .footerNav li a:hover {
 .karma_navigation {
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time {
