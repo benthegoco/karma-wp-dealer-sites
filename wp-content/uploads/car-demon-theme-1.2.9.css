@@ -5211,8 +5211,6 @@ Generic Car Item
 	}
 }
 .car_item {
-	background: #F9F9F9;
-	border: 1px solid #D6D6D6;
 	display: block;
 	padding: 5px;
 }
